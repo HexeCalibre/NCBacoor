@@ -1,0 +1,37 @@
+{
+  "name": "nc-bacoor",
+  "version": "1.0.0",
+  "description": "A Bacoor City Livelihood's Kiosk for Cherry Mobile AquaTab S1 Pro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HexeCalibre/NCBacoor.git"
+  },
+  "keywords": [
+    "DTI",
+    "Negosyo",
+    "Center",
+    "City",
+    "Government",
+    "of",
+    "Bacoor",
+    "Bacoor",
+    "City",
+    "Livelihood",
+    "and",
+    "Development",
+    "Office"
+  ],
+  "author": "Ritz Carl Feliciano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HexeCalibre/NCBacoor/issues"
+  },
+  "homepage": "https://github.com/HexeCalibre/NCBacoor#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
