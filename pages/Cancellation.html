@@ -47,14 +47,15 @@
           <li>
             Accomplished
             <a
-              href="https://dtibnrs.s3-ap-southeast-1.amazonaws.com/files/20230222/jg3h7wrai80758.pdf"
-              ><strong><em>Other BN-Related Application Form,</em></strong></a
+              href="#"
+              data-bs-toggle="modal"
+              data-bs-target="#otherBNFormModal"
+              ><strong>Other BN-Related Application Form</strong></a
             >
             signed by the owner
           </li>
           <li>
-            <a
-              href="https://dtibnrs.s3-ap-southeast-1.amazonaws.com/files/20220330/zvbq0jnixl1511.pdf"
+            <a href="#" data-bs-toggle="modal" data-bs-target="#validIDModal"
               ><strong>Valid government-issued ID,</strong></a
             >
             for verification
@@ -71,6 +72,68 @@
           </li>
         </ol>
 
+        <!--START OF OTHER BN-RELATED APPLICATION MODAL-->
+        <div
+          class="modal fade"
+          id="otherBNFormModal"
+          tabindex="-1"
+          aria-labelledby="otherBNFormModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="otherBNFormModalLabel">
+                  Scan to Download Form
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <img
+                  src="../images/qr-other-bn-related-form.png"
+                  class="img-fluid"
+                />
+                <p>Other BN-Related Application Form</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--END OF MODAL-->
+
+        <!--START OF VALID ID MODAL-->
+        <div
+          class="modal fade"
+          id="validIDModal"
+          tabindex="-1"
+          aria-labelledby="validIDModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="validIDModalLabel">
+                  Valid government-issued ID
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <embed src="https://dtibnrs.s3-ap-southeast-1.amazonaws.com/files/20220330/zvbq0jnixl1511.pdf" frameborder="0" width="100%" height="600px" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--END OF MODAL-->
+
         <p>
           <em
             >Call your DTI Regional or Provincial Office first and inquire the
@@ -86,6 +149,10 @@
     </div>
 
     <!-- BOOTSTRAP -->
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" async defer></script>
+    <script
+      src="../node_modules/bootstrap/dist/js/bootstrap.min.js"
+      async
+      defer
+    ></script>
   </body>
 </html>
