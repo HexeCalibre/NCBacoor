@@ -10,3 +10,5 @@ import _ from 'lodash';
 //   }
   
 //   document.body.appendChild(component());
+
+// console.log('Hello World!');
