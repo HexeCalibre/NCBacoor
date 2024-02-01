@@ -2,6 +2,7 @@
   "name": "nc-bacoor",
   "version": "1.0.0",
   "description": "A Bacoor City Livelihood's Kiosk for Cherry Mobile AquaTab S1 Pro",
+  "main": "dist/main.js",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -36,6 +37,10 @@
     "bootstrap": "^5.3.2"
   },
   "devDependencies": {
+    "css-loader": "^6.10.0",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^14.1.0",
+    "style-loader": "^3.3.4",
     "webpack": "^5.90.0",
     "webpack-cli": "^5.1.4"
   }
