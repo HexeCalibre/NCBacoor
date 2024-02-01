@@ -4,10 +4,13 @@
   "description": "A Bacoor City Livelihood's Kiosk for Cherry Mobile AquaTab S1 Pro",
   "main": "src/index.js",
   "private": true,
+  "homepage": "http://HexeCalibre.github.io/NCBacoor.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "predeploy" : "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
