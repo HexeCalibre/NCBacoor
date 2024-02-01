@@ -1,4 +1,7 @@
 import 'lodash';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
+
 
 // function component() {
 //     const element = document.createElement('div');
