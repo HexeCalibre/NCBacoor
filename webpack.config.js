@@ -2,6 +2,7 @@ const path = require('path')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 module.exports = {
+  mode: 'none',
   entry: '/src/index.js',
   output: {
     filename: "main.js",
