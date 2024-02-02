@@ -10,16 +10,18 @@
       content="This Website used fogr NC-Bacoor Tablet ONLY!"
     />
     <title>DTI | Kiosk</title>
-    
+
     <!-- WEBPACK JS -->
     <script src="../dist/main.js"></script>
 
     <!-- BOOTSTRAP CSS -->
-    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- START OF GRID -->
@@ -27,9 +29,7 @@
       <!-- START OF ROW -->
       <div class="row">
         <!-- FRAGMENT -->
-        <div class="col col-sm-1">
-
-        </div>
+        <div class="col col-sm-1"></div>
         <!-- START OF FAQ -->
         <div class="col col-sm-5">
           <a href="https://bnrs.dti.gov.ph/faq">
@@ -50,7 +50,6 @@
           </a>
           <!-- END OF FAQ -->
         </div>
-        
 
         <!-- START OF NEW REGISTRATION -->
         <div class="col col-sm-5">
@@ -73,17 +72,12 @@
           <!-- END OF NEW REGISTRATION -->
         </div>
 
-        
         <!-- FRAGMENT -->
-        <div class="col col-sm-1">
+        <div class="col col-sm-1"></div>
 
-        </div>
-        
         <!-- FRAGMENT -->
-        <div class="col col-sm-1">
+        <div class="col col-sm-1"></div>
 
-        </div>
-        
         <!-- START OF RENEWAL -->
         <div class="col col-sm-5">
           <a href="pages/Renewal.html">
@@ -105,8 +99,8 @@
           <!-- END OF RENEWAL -->
         </div>
 
-         <!-- START OF CANCELLATION -->
-         <div class="col col-sm-5">
+        <!-- START OF CANCELLATION -->
+        <div class="col col-sm-5">
           <a href="pages/Cancellation.html">
             <!-- START OF CARD -->
             <div class="card text-bg-danger">
@@ -126,20 +120,14 @@
           <!-- END OF CANCELLATION -->
         </div>
 
-        
         <!-- FRAGMENT -->
-        <div class="col col-sm-1">
+        <div class="col col-sm-1"></div>
 
-        </div>
-
-        
         <!-- FRAGMENT -->
-        <div class="col col-sm-1">
+        <div class="col col-sm-1"></div>
 
-        </div>
-
-         <!-- START OF REQUEST CERTIFICATION -->
-         <div class="col col-sm-5">
+        <!-- START OF REQUEST CERTIFICATION -->
+        <div class="col col-sm-5">
           <a href="pages/Certification.html">
             <!-- START OF CARD -->
             <div class="card text-bg-secondary">
@@ -159,8 +147,8 @@
           <!-- END OF REQUEST CERTIFICATION -->
         </div>
 
-         <!-- START OF UPGRADE BUSINESS SCOPE -->
-         <div class="col col-sm-5">
+        <!-- START OF UPGRADE BUSINESS SCOPE -->
+        <div class="col col-sm-5">
           <a href="pages/Upgrade.html">
             <!-- START OF CARD -->
             <div class="card text-bg-warning">
@@ -179,20 +167,16 @@
           </a>
           <!-- END OF UPGRADE BUSINESS SCOPE -->
         </div>
-        
-        <!-- FRAGMENT -->
-        <div class="col col-sm-1">
-
-        </div>
 
         <!-- FRAGMENT -->
-        <div class="col col-sm-1">
+        <div class="col col-sm-1"></div>
 
-        </div>
+        <!-- FRAGMENT -->
+        <div class="col col-sm-1"></div>
 
-         <!-- START OF HELPDESK -->
-         <div class="col col-sm-5">
-          <a href="https://www.dti.gov.ph/contact/">
+        <!-- START OF HELPDESK -->
+        <div class="col col-sm-5">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#helpDeskModal">
             <!-- START OF CARD -->
             <div class="card text-bg-light">
               <img
@@ -214,11 +198,47 @@
         <!-- END OF ROW -->
       </div>
 
+        <!--START OF OTHER BN-RELATED APPLICATION MODAL-->
+        <div
+          class="modal fade"
+          id="helpDeskModal"
+          tabindex="-1"
+          aria-labelledby="helpDeskModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="helpDeskModalLabel">
+                  BNRS Contact
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li>Telephone: <strong>Text/Viber: 09175953930</strong></li>
+                  <li>Mobile Phone: <strong>Calls: 09178630669/09178457104</strong></li>
+                  <li>Email Address: <a href="#">bnrshelpdesk@dtiphmail.dti.gov.ph</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--END OTHER BN-RELATED APPLICATION MODAL-->
+
       <!-- END OF GRID -->
     </div>
 
     <!-- BOOTSTRAP JS -->
-    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js" async defer></script>
-
+    <script
+      src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"
+      async
+      defer
+    ></script>
   </body>
 </html>
