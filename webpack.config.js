@@ -1,5 +1,5 @@
 const path = require('path')
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 module.exports = {
   mode: 'none',
@@ -20,12 +20,12 @@ module.exports = {
     ],
   },
 
-  plugins: [
-    new BundleAnalyzerPlugin()
-  ],
+  // plugins: [
+  //   new BundleAnalyzerPlugin()
+  // ],
 
-  devServer: {
-    contentBase: path.join(__dirname, 'public'),
-    port: 9000,
-  },
-};
+//   devServer: {
+//     contentBase: path.join(__dirname, 'public'),
+//     port: 9000,
+//   },
+// };
