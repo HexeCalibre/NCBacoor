@@ -19,8 +19,12 @@
       rel="stylesheet"
       href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
@@ -30,10 +34,8 @@
     <div class="container text-center">
       <!-- START OF ROW -->
       <div class="row">
-        <!-- FRAGMENT -->
-        <div class="col col-sm-1"></div>
         <!-- START OF FAQ -->
-        <div class="col col-sm-5">
+        <div class="col col-6">
           <a href="https://bnrs.dti.gov.ph/faq">
             <!-- START OF CARD -->
             <div class="card text-bg-info">
@@ -54,7 +56,7 @@
         </div>
 
         <!-- START OF NEW REGISTRATION -->
-        <div class="col col-sm-5">
+        <div class="col col-6">
           <a href="pages/Registration.html">
             <!-- START OF CARD -->
             <div class="card text-bg-success">
@@ -74,14 +76,8 @@
           <!-- END OF NEW REGISTRATION -->
         </div>
 
-        <!-- FRAGMENT -->
-        <div class="col col-sm-1"></div>
-
-        <!-- FRAGMENT -->
-        <div class="col col-sm-1"></div>
-
         <!-- START OF RENEWAL -->
-        <div class="col col-sm-5">
+        <div class="col col-6">
           <a href="pages/Renewal.html">
             <!-- START OF CARD -->
             <div class="card text-bg-primary">
@@ -102,7 +98,7 @@
         </div>
 
         <!-- START OF CANCELLATION -->
-        <div class="col col-sm-5">
+        <div class="col col-6">
           <a href="pages/Cancellation.html">
             <!-- START OF CARD -->
             <div class="card text-bg-danger">
@@ -122,14 +118,8 @@
           <!-- END OF CANCELLATION -->
         </div>
 
-        <!-- FRAGMENT -->
-        <div class="col col-sm-1"></div>
-
-        <!-- FRAGMENT -->
-        <div class="col col-sm-1"></div>
-
         <!-- START OF REQUEST CERTIFICATION -->
-        <div class="col col-sm-5">
+        <div class="col col-6">
           <a href="pages/Certification.html">
             <!-- START OF CARD -->
             <div class="card text-bg-secondary">
@@ -150,7 +140,7 @@
         </div>
 
         <!-- START OF UPGRADE BUSINESS SCOPE -->
-        <div class="col col-sm-5">
+        <div class="col col-6">
           <a href="pages/Upgrade.html">
             <!-- START OF CARD -->
             <div class="card text-bg-warning">
@@ -170,14 +160,8 @@
           <!-- END OF UPGRADE BUSINESS SCOPE -->
         </div>
 
-        <!-- FRAGMENT -->
-        <div class="col col-sm-1"></div>
-
-        <!-- FRAGMENT -->
-        <div class="col col-sm-1"></div>
-
         <!-- START OF HELPDESK -->
-        <div class="col col-sm-5">
+        <div class="col col-6">
           <a href="#" data-bs-toggle="modal" data-bs-target="#helpDeskModal">
             <!-- START OF CARD -->
             <div class="card text-bg-light">
@@ -200,38 +184,41 @@
         <!-- END OF ROW -->
       </div>
 
-        <!--START OF OTHER BN-RELATED APPLICATION MODAL-->
-        <div
-          class="modal fade"
-          id="helpDeskModal"
-          tabindex="-1"
-          aria-labelledby="helpDeskModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="helpDeskModalLabel">
-                  BNRS Contact
-                </h5>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="modal-body">
-                <ul>
-                  <li>Telephone: <strong>Text/Viber: 09175953930</strong></li>
-                  <li>Mobile Phone: <strong>Calls: 09178630669/09178457104</strong></li>
-                  <li>Email Address: <a href="#">bnrshelpdesk@dtiphmail.dti.gov.ph</a></li>
-                </ul>
-              </div>
+      <!--START OF OTHER BN-RELATED APPLICATION MODAL-->
+      <div
+        class="modal fade"
+        id="helpDeskModal"
+        tabindex="-1"
+        aria-labelledby="helpDeskModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="helpDeskModalLabel">BNRS Contact</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <ul>
+                <li>Telephone: <strong>Text/Viber: 09175953930</strong></li>
+                <li>
+                  Mobile Phone: <strong>Calls: 09178630669/09178457104</strong>
+                </li>
+                <li>
+                  Email Address:
+                  <a href="#">bnrshelpdesk@dtiphmail.dti.gov.ph</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-        <!--END OTHER BN-RELATED APPLICATION MODAL-->
+      </div>
+      <!--END OTHER BN-RELATED APPLICATION MODAL-->
 
       <!-- END OF GRID -->
     </div>
@@ -242,6 +229,10 @@
       async
       defer
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
