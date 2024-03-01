@@ -9,14 +9,11 @@
       name="description"
       content="This Website used for NC-Bacoor Tablet ONLY!"
     />
-    <title>DTI | Registration</title>
+    <title>DTI | Certification</title>
     <!-- Browser Icon -->
-    <link rel="icon" href="../images/nc-bacoor-logo.png" type="image/png" />
+    <link rel="icon" href="../../images/nc-bacoor-logo.png" type="image/png" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- BOOTSTRAP CSS -->
+    <!-- BOOTSTRAP -->
     <link
       rel="stylesheet"
       href="../../node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -30,8 +27,9 @@
   </head>
   <body>
     <div class="container">
-        <h1 class="my-5">New Business Name Registration</h1>
+      <h1 class="my-5">Affirmative/Negative Certification</h1>
 
+      
       <!-- START OF ACCORDION -->
       <div class="accordion" id="accordionExample">
         <!-- START OF REQUIREMENTS ACCORDION -->
@@ -65,7 +63,7 @@
         </div>
         <!-- END OF REQUIREMENTS ACCORDION -->
 
-        <!-- START OF FEES ACCORDION -->
+        <!-- START OF GETTING STARTED ACCORDION -->
         <div class="accordion-item">
           <h3 class="accordion-header">
             <button
@@ -76,7 +74,7 @@
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              Schedule of Fees:
+              Getting Started
             </button>
           </h3>
           <div
@@ -85,43 +83,54 @@
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <p>
-                (Based on Territorial Scope. Tap this
-                <a
-                  href="https://dtibnrs.s3-ap-southeast-1.amazonaws.com/files/20201023/ruigurkejo1522.jpg"
-                  >link</a
-                >
-                to know more.)
-              </p>
-              <ul>
-                <li>Barangay - ₱200 + ₱30 DST</li>
-                <li>City/Municipality - ₱500 + ₱30 DST</li>
-                <li>Regional - ₱1,000 + ₱30 DST</li>
-                <li>National - ₱2,000 + ₱30 DST</li>
-              </ul>
+              <center>
+                <h2 class="mt-3">Scan to Proceed</h2>
+                <img
+                  src="../../images/qr-req-cert.png"
+                  style="width: 200px; height: 200px"
+                  alt=""
+                />
+                <h6><strong>Or</strong></h6>
+                <h2>Visit: bnrs.dti.gov.ph/registration</h2>
+              </center>
             </div>
           </div>
         </div>
-        <!-- END OF FEES ACCORDION -->
+        <!-- END OF GETTING STARTED ACCORDION -->
+
+        <!-- START OF STEP BY STEP GUIDE ACCORDION
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              Step-by-step Guide on How to Register Business Name
+            </button>
+          </h3>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>Work in progress</p>
+            </div>
+          </div>
+        </div>
+        END OF STEP BY STEP GUIDE ACCORDION -->
+        
       </div>
       <!-- END OF ACCORDION -->
-      <center>
-        <h2 class="mt-3 fw-bold">Scan to Register</h2>
-        <img
-          src="../images/qr-new-registration.png"
-          style="width: 200px; height: 200px"
-          alt=""
-        />
-        <h6><strong>Or</strong></h6>
-        <h2>Visit: bnrs.dti.gov.ph/registration</h2>
-      </center>
-
-      <h2 class="mt-3">Step-by-step (Work in progress)</h2>
     </div>
 
-    <!-- BOOTSTRAP JS -->
+    <!-- BOOTSTRAP -->
     <script
-      src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"
       async
       defer
     ></script>
