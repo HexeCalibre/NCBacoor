@@ -13,9 +13,6 @@
     <!-- Browser Icon -->
     <link rel="icon" href="../../images/nc-bacoor-logo.png" type="image/png" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="../style.css" />
-
     <!-- BOOTSTRAP -->
     <link
       rel="stylesheet"
@@ -30,28 +27,105 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="my-5">Request Certification</h1>
-      <h3>
-        Requirements:
-        <ul>
-          <li>Smartphone (Android/iOS)</li>
-          <li>Internet Connection</li>
-          <li>E-Wallet (GCash, Maya)</li>
-          <li>Verified Email (Gmail, Yahoo)</li>
-        </ul>
-      </h3>
-      <center>
-        <h2 class="mt-3"><strong>Scan to Request Certificaiton</strong></h2>
-        <img
-          src="../../images/qr-req-cert.png"
-          style="width: 200px; height: 200px"
-          alt=""
-        />
-        <h2><strong>Or</strong></h2>
-        <h2>bnrs.dti.gov.ph/request-certification</h2>
-      </center>
+      <h1 class="my-5">Affirmative/Negative Certification</h1>
 
-      <h2 class="mt-5">Step-by-step (Work in progress)</h2>
+      
+      <!-- START OF ACCORDION -->
+      <div class="accordion" id="accordionExample">
+        <!-- START OF REQUIREMENTS ACCORDION -->
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Requirements
+            </button>
+          </h3>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li>Smartphone (Android/iOS)</li>
+                <li>Internet Connection</li>
+                <li>E-Wallet (GCash, Maya)</li>
+                <li>Verified Email (Gmail, Yahoo)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- END OF REQUIREMENTS ACCORDION -->
+
+        <!-- START OF GETTING STARTED ACCORDION -->
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Getting Started
+            </button>
+          </h3>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <center>
+                <h2 class="mt-3">Scan to Proceed</h2>
+                <img
+                  src="../../images/qr-req-cert.png"
+                  style="width: 200px; height: 200px"
+                  alt=""
+                />
+                <h6><strong>Or</strong></h6>
+                <h2>Visit: bnrs.dti.gov.ph/registration</h2>
+              </center>
+            </div>
+          </div>
+        </div>
+        <!-- END OF GETTING STARTED ACCORDION -->
+
+        <!-- START OF STEP BY STEP GUIDE ACCORDION
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              Step-by-step Guide on How to Register Business Name
+            </button>
+          </h3>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>Work in progress</p>
+            </div>
+          </div>
+        </div>
+        END OF STEP BY STEP GUIDE ACCORDION -->
+        
+      </div>
+      <!-- END OF ACCORDION -->
     </div>
 
     <!-- BOOTSTRAP -->
