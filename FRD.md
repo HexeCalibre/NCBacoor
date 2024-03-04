@@ -6,20 +6,20 @@ The Functional Requirements Document outlines the detailed functionalities and f
 
 ## 2. User Stories:
 
-### 2.1 As an MSME representative, I want to easily access information on DTI services.
+### 2. MSMEs Interaction:
 
-- The system should provide a clear and user-friendly interface.
-- The DTI services section should have a clickable button leading to relevant information.
+- As MSME representatives, we want to easily access information on DTI services.
+  - The system should provide a clear and user-friendly interface.
+  - The DTI services section should have a clickable button leading to relevant information.
 
-### 2.2 As a client, I want a seamless experience navigating through the kiosk.
+- As MSMEs, we want a seamless experience navigating through the kiosk.
+  - The navigation buttons should be intuitive and labeled appropriately.
+  - Users should be able to return to the main menu from any section.
+  - [Future Enhancement] As MSMEs, we want breadcrumbs functionality to track our navigation path.
 
-- The navigation buttons should be intuitive and labeled appropriately.
-- The user should be able to return to the main menu from any section.
-
-### 2.3 As a user, I want to access the citizen charter conveniently.
-
-- The Citizen Charter button should open a modal with a zoomable HTML object.
-- The user should be able to zoom in and out for better readability.
+- As MSMEs, we want to access the citizen charter conveniently.
+  - The Citizen Charter button should open a modal with a zoomable HTML object.
+  - Users should be able to zoom in and out for better readability.
 
 ## 3. System Requirements:
 
@@ -32,19 +32,18 @@ The Functional Requirements Document outlines the detailed functionalities and f
 ### 3.2 Software Requirements:
 
 - The kiosk application should be compatible with Mozilla Firefox.
-- Utilize HTML and Bootstrap CSS for responsive design.
-- QR code and URL integration for specific functionalities.
+- Utilize HTML and Bootstrap CSS with a responsive design suitable for a government-issued tablet.
 
 ### 3.3 Offline Functionality (Future Enhancement):
 
-- Plan for offline access to essential information.
-- Consider caching critical content for offline use.
+- Future migration to React Native for locally installed app and enhanced offline functionality.
 
 ## 4. User Interface (UI) Design:
 
 - Follow a clean and modern design for the kiosk interface.
 - Buttons for different sections should be clearly visible and labeled.
-- Implement a responsive design for various screen sizes.
+- Implement a responsive design tailored for the government-issued tablet.
+- [Future Enhancement] Include breadcrumbs for users to track their navigation.
 
 ## 5. Interactions:
 
@@ -60,8 +59,8 @@ The Functional Requirements Document outlines the detailed functionalities and f
 
 ## 6. Security:
 
-- Implement basic security measures to protect user data.
-- Ensure the tablet is securely mounted to prevent theft.
+- Implement basic measures to ensure the physical security of the tablet.
+  - Securely mount the tablet to prevent theft or tampering.
 
 ## 7. Testing:
 
@@ -72,6 +71,7 @@ The Functional Requirements Document outlines the detailed functionalities and f
 
 - Consider migrating the project to React for improved maintainability.
 - Explore React Native for offline functionality, enabling local installation.
+- [Future Enhancement] Add breadcrumbs functionality to enhance user navigation.
 
 ## 9. Revision History:
 
@@ -84,6 +84,6 @@ This FRD is subject to approval by Negosyo Center Bacoor and Bacoor City Livelih
 
 ## 11. Project Contact:
 
-For further information, contact [Project Manager Name] at [Project Manager Email/Phone].
+For further information, contact Ritz Carl Feliciano at rc.feliciano013097@gmail.com.
 
 **Note:** This document provides a high-level overview of functional requirements and may require further detailing during the development phase.
