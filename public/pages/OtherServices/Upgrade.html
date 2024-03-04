@@ -11,7 +11,7 @@
     />
     <title>DTI | Upgrade</title>
     <!-- Browser Icon -->
-    <link rel="icon" href="../images/nc-bacoor-logo.png" type="image/png" />
+    <link rel="icon" href="../../images/nc-bacoor-logo.png" type="image/png" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="../style.css" />
@@ -30,160 +30,246 @@
     />
   </head>
   <body>
-    <div class="container">
+    <div class="container vh-100">
       <h1 class="my-5"><strong>Upgrading of Territorial Scope</strong></h1>
 
-      <h2 class="my-5"><strong>Requirements:</strong></h2>
-      <h2>
-        <ol>
-          <li class="my-3">
-            Accomplished
-            <a
-              href="#"
-              data-bs-toggle="modal"
-              data-bs-target="#otherBNFormModal"
-              ><strong><em>Other BN-Related Application Form,</em></strong></a
+      <!-- START OF ACCORDION -->
+      <div class="accordion" id="accordionExample">
+        <!-- START OF REQUIREMENTS ACCORDION -->
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
             >
-            and
-            <a
-              href="#"
-              data-bs-toggle="modal"
-              data-bs-target="#applicationFormModal"
-              ><strong><em>Application Form</em></strong></a
-            >
-            signed by the owner
-          </li>
-          <li class="my-3">
-            <a href="#" data-bs-toggle="modal" data-bs-target="#validIDModal"
-              ><strong>Valid government-issued ID,</strong></a
-            >
-            for verification
-          </li>
-          <li class="my-3">
-            Original Business Name Certificate (if available)
-          </li>
-        </ol>
-
-        <!--START OF OTHER BN-RELATED APPLICATION MODAL-->
-        <div
-          class="modal fade"
-          id="otherBNFormModal"
-          tabindex="-1"
-          aria-labelledby="otherBNFormModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="otherBNFormModalLabel">
-                  Scan to Download Form
-                </h5>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="modal-body">
-                <center>
-                  <img
-                    src="../../images/qr-other-bn-related-form.png"
-                    class="img-fluid"
-                    style="width: 200px; height: 200px"
-                  />
-                  <p>Other BN-Related Application Form</p>
-                </center>
-              </div>
+              Requirements
+            </button>
+          </h3>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <ol>
+                <li>
+                  Accomplished
+                  <a
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#otherBNFormModal"
+                    ><strong
+                      ><em>Other BN-Related Application Form,</em></strong
+                    ></a
+                  >
+                  and
+                  <a
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#applicationFormModal"
+                    ><strong><em>Application Form</em></strong></a
+                  >
+                  signed by the owner
+                </li>
+                <li class="my-3">
+                  <a
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#validIDModal"
+                    ><strong>Valid government-issued ID,</strong></a
+                  >
+                  for verification
+                </li>
+                <li class="my-3">
+                  Original Business Name Certificate (if available)
+                </li>
+              </ol>
             </div>
           </div>
         </div>
-        <!--END OTHER BN-RELATED APPLICATION MODAL-->
+        <!-- END OF REQUIREMENTS ACCORDION -->
 
-        <!--START OF APPLICATION MODAL-->
-        <div
-          class="modal fade"
-          id="applicationFormModal"
-          tabindex="-1"
-          aria-labelledby="applicationFormModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="applicationFormModalLabel">
-                  Scan to Download Form
-                </h5>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="modal-body">
-                <center>
-                  <img
-                    src="../../images/qr-application-form.png"
-                    class="img-fluid"
-                    style="height: 200px; width: 200px"
-                  />
-                  <p>Application Form</p>
-                </center>
-              </div>
+        <!-- START OF GETTING STARTED ACCORDION -->
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Getting Started
+            </button>
+          </h3>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                <em>
+                  To initiate the cancellation process for your Business Name
+                  (BN) registration, you can submit your application at specific
+                  locations:
+                  <ol>
+                    <li>Provincial Office (Trece Martires)</li>
+                    <li>Regional Office (Calamba)</li>
+                    <li>Main Branch (Makati)</li>
+                  </ol>
+                </em>
+              </p>
             </div>
           </div>
         </div>
-        <!--END APPLICATION MODAL-->
+        <!-- END OF GETTING STARTED ACCORDION -->
 
-        <!--START OF VALID ID MODAL-->
-        <div
-          class="modal fade"
-          id="validIDModal"
-          tabindex="-1"
-          aria-labelledby="validIDModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="validIDModalLabel">
-                  Valid government-issued ID
-                </h5>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="modal-body">
-                <embed
-                  src="https://dtibnrs.s3-ap-southeast-1.amazonaws.com/files/20220330/zvbq0jnixl1511.pdf"
-                  frameborder="0"
-                  width="100%"
-                  height="600px"
-                  alt=""
+        <!-- START OF STEP BY STEP GUIDE ACCORDION
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              Step-by-step Guide on How to Register Business Name
+            </button>
+          </h3>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>Work in progress</p>
+            </div>
+          </div>
+        </div>
+        END OF STEP BY STEP GUIDE ACCORDION -->
+      </div>
+      <!-- END OF ACCORDION -->
+
+      <!--START OF OTHER BN-RELATED APPLICATION MODAL-->
+      <div
+        class="modal fade"
+        id="otherBNFormModal"
+        tabindex="-1"
+        aria-labelledby="otherBNFormModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="otherBNFormModalLabel">
+                Scan to Download Form
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <center>
+                <img
+                  src="../../images/qr-other-bn-related-form.png"
+                  class="img-fluid"
+                  style="width: 200px; height: 200px"
                 />
-              </div>
+                <p>Other BN-Related Application Form</p>
+              </center>
             </div>
           </div>
         </div>
-        <!--END OF VALID ID MODAL-->
+      </div>
+      <!--END OTHER BN-RELATED APPLICATION MODAL-->
 
-        <p>
-          <em>
-            To initiate the cancellation process for your Business Name (BN)
-            registration, you can submit your application at specific locations:
-            <ol>
-              <li>Provincial Office (Trece Martires)</li>
-              <li>Regional Office (Calamba)</li>
-              <li>Main Branch (Makati)</li>
-            </ol>
-          </em>
-        </p>
-      </h2>
+      <!--START OF APPLICATION MODAL-->
+      <div
+        class="modal fade"
+        id="applicationFormModal"
+        tabindex="-1"
+        aria-labelledby="applicationFormModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="applicationFormModalLabel">
+                Scan to Download Form
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <center>
+                <img
+                  src="../../images/qr-application-form.png"
+                  class="img-fluid"
+                  style="height: 200px; width: 200px"
+                />
+                <p>Application Form</p>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--END APPLICATION MODAL-->
+
+      <!--START OF VALID ID MODAL-->
+      <div
+        class="modal fade"
+        id="validIDModal"
+        tabindex="-1"
+        aria-labelledby="validIDModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="validIDModalLabel">
+                Valid government-issued ID
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <embed
+                src="https://dtibnrs.s3-ap-southeast-1.amazonaws.com/files/20220330/zvbq0jnixl1511.pdf"
+                frameborder="0"
+                width="100%"
+                height="600px"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--END OF VALID ID MODAL-->
     </div>
+
+     <!-- Footer -->
+     <footer class="footer bg-primary sticky-bottom py-3 bottom-0" id="footer">
+      <p class="text-bg-primary text-center">Developed by Ritz Feliciano</p>
+    </footer>
 
     <!-- BOOTSTRAP -->
     <script
