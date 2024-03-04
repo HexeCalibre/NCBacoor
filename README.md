@@ -129,6 +129,6 @@ This BRD is subject to approval by Negosyo Center Bacoor and Bacoor City Livelih
 
 ### 11. Project Contact:
 
-For further information, contact [Project Manager Name] at [Project Manager Email/Phone].
+For further information, contact Ritz Carl Feliciano at rc.feliciano013097@gmail.com.
 
 **Note:** This document serves as a guide for the Information Kiosk Digitization Project and is subject to updates and modifications as required during the project lifecycle.
