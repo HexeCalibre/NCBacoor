@@ -1,134 +1,72 @@
-# Business Requirements Document (BRD) for Negosyo Center Bacoor Information Kiosk
+# Chapter 1 - The Problem and Its Background
 
-## 📋 Table of Contents:
+## Introduction
 
-1. [Project Overview](#-project-overview)
-2. [Project Objectives](#-project-objectives)
-3. [Hardware and Software Specifications](#-hardware-and-software-specifications)
-4. [Content](#-content)
-5. [Project Execution](#-project-execution)
-6. [Traditional Approach vs. Solution](#-traditional-approach-vs-solution)
-7. [Communication and Outreach](#-communication-and-outreach)
-8. [Risks and Mitigation](#-risks-and-mitigation)
-9. [Stakeholders](#-stakeholders)
+In the ever-evolving landscape of public service, technology plays a pivotal role in reshaping efficiency and accessibility. This research introduces an Information Kiosk crafted for the Bacoor City Livelihood and Development Office, leveraging HTML and Bootstrap. This tablet-friendly solution addresses intricate administrative processes tied to business registration.
 
-## 🌐 Project Overview:
+The Bacoor City Livelihood and Development Office spearheads this initiative to streamline procedures and enhance services for local businesses. By embracing HTML and Bootstrap, we aim for a user-centric kiosk, simplifying processes like DTI business registration, renewals, certifications, FAQs, and supporting micro-enterprises.
 
-### 1.1 Project Name:
-Information Kiosk Digitization Project
+This study into the rationale behind the Information Kiosk, emphasizing its potential to elevate service delivery in local government. By showcasing a practical application of technology, we offer insights for similar initiatives. The synergy of user-friendly design and tech adoption is a central theme, exploring transformative possibilities for administrative processes.
 
-### 1.2 Project Start Date:
-January 22, 2024 (Initial GitHub Commit Date)
+In subsequent sections, I detail the methodology, highlight key features, discuss benefits for the Bacoor City Livelihood and Development Office, and conclude with reflections on broader implications. Through this exploration, we aim to provide a concise understanding of the Information Kiosk’s significance in Bacoor City and offer insights for broader initiatives.
 
-### 1.3 Project Deadline:
-February 19, 2024
+## Background of the Study
 
-### 1.4 Beneficiary:
-Negosyo Center Bacoor under Bacoor City Livelihood Office
+The Bacoor City Livelihood and Development Office plays a pivotal role in providing essential services to local businesses through the Negosyo Center. However, clients often face challenges accessing and understanding the array of services offered. Recognizing the need for a more accessible and user-friendly information platform, this research focuses on developing an Information Kiosk for inquiry purposes.
 
-### 1.5 Clients:
-Micro, Small, and Medium Enterprises (MSMEs)
+The tablet-based kiosk, utilizing HTML and Bootstrap technologies, aims to streamline the process of obtaining information about the Negosyo Center’s services. It serves as a digital guide, offering details on services such as DTI business name registration, renewals, affirmative/negative certification requests, and support for micro-enterprises. The primary goal is to enhance the efficiency of client inquiries.
 
-## 🎯 Project Objectives:
+By introducing this digital solution, the project addresses the specific needs of clients seeking information and aims to streamline the inquiry process at the Bacoor City Livelihood and Development Office. This study explores the rationale client experience and contributes to the modernization of local administrative services. Through the integration of user-centric design and technology, the Information Kiosk strives to provide a convenient and informative resource for clients engaging with the Negosyo Center.
 
-### 2.1 Primary Objective:
-Digitize and streamline the dissemination of information, specifically the citizen charter, for improved accessibility and reduced handling time for clients.
+## Statement of the Problem
 
-### 2.2 Secondary Objective:
-Enhance awareness and accessibility to Department of Trade and Industry (DTI) services through the kiosk.
+### Main Problem
 
-## 💻 Hardware and Software Specifications:
+The primary problem addressed by this research stems from the challenges faced by clients seeking information and clarification, especially when in doubt about the responses provided by receptionists. This uncertainty often results in long queues and extended handling times. Prior to ISO certification, the traditional method of displaying information through paper postings on the window proved ineffective, as clients often did not engage with or read the posted materials. Furthermore, the tablet, initially provided for displaying the citizen charter of the Bacoor City Livelihood Office, was underutilized and not employed to its full potential. The Information Kiosk project aims to transform this landscape by leveraging technology to create an accessible and efficient platform for client inquiries, thereby addressing the identified issues and enhancing the overall client experience at the Negosyo Center.
 
-### 3.1 Hardware:
-- Wall-mounted Android 10 tablet (single unit) - Government Issued
+### Specific Problems
 
-### 3.2 Browser:
-Mozilla Firefox
+- Clients are not actively engaging with the tablet provided at the Negosyo Center, leading to a missed opportunity to leverage technology for effective information dissemination.
+- The tablet, initially intended for displaying the citizen charter, is not being utilized to its full potential, resulting in a lack of efficiency in addressing client inquiries and concerns.
+- Traditional methods of displaying information through paper postings on the window are proving ineffective, as clients often do not interact with or comprehend the posted materials.
+- The current approach of using paper postings fails to provide a user-friendly and accessible means of communication, contributing to long queues and extended handling times due to client uncertainty and lack of clarity.
 
-### 3.3 Tech Stack:
-- HTML
-- Bootstrap CSS (Responsive Web Design Ready)
+## Objectives of the Study
 
-### 3.4 Version Control:
-Github (Initial Commit Date: January 22, 2024)
+### Main Objective
 
-### 3.5 Hosting Platform:
-Vercel
+The primary objective of the Information Kiosk project is to optimize client experience at the Negosyo Center by addressing the underutilization of the tablet and inefficiency of posted materials. Through the seamless integration of technology, the goal is to establish an accessible and efficient platform that empowers clients with accurate information, reduces handling times, and minimizes uncertainty, thereby enhancing overall service delivery and satisfaction at the Bacoor City Livelihood Office.
 
-### 3.6 IDE:
-Visual Studio Code
+### Specific Objectives
 
-### 3.7 Terminal:
-Powershell
+- The tablet provided at the Negosyo Center is underutilized, leading to a missed opportunity in leveraging technology for effective information dissemination.
+- Lack of active engagement with the tablet results in a failure to optimize its potential for addressing client inquiries and concerns.
+- Traditional paper postings on the window are inefficient in communicating information to clients, contributing prolonged handling times and client uncertainty.
+- Ineffective communication through paper postings hinders the establishment of an optimal and seamless client-service interaction.
+- The combined issues of underutilized technology and inefficient communication processes necessitate targeted interventions to enhance the overall client experience at the Bacoor City Livelihood Office.
 
-## 📜 Content:
+## Scope and Limitation
 
-### 4.1 Displayed Information:
-- FAQ
-- Registration
-- Renewal
-- Other Services - Redirects to "otherservices.html" displaying additional services
-- Contact Us - Modal displaying contact information
-- Citizen Charter - Zoomable HTML `<object>` displaying charter information
+### Scope of the Study
 
-### 4.2 Redirects to Other Websites:
-- FAQs - Redirects to Frequently Asked Questions page
-- BMBe - Redirects to BMBe (Barangay Micro Business Enterprise) information page
-- Upskill - Redirects to upskilling opportunities website
+The scope of the Information Kiosk project is comprehensive, encompassing various aspects of the client-service interaction at the Negosyo Center. With a specific focus on resolving the identified issues of underutilized technology and inefficient communication, the study will delve into several key areas.
 
-### 4.3 Redirects to Internal Pages:
-- Registration, Renewal, Request Certification - Redirects to respective pages with information displayed in Bootstrap accordion
-- Cancellation, Request Certification, CTC, Upgrading, Reconsideration, Upskill, BMBe, Feedback - Redirects to Other Services page ("otherservices.html")
+1. **Technology Integration:** Examination of the current state of tablet utilization, followed by the implementation of strategies to enhance engagement and utilization for more effective information dissemination.
+   
+2. **Communication Effectiveness:** Evaluation of existing methods such as traditional paper postings, along with the introduction of more efficient and user-friendly communication channels to reduce handling times and minimize client uncertainty.
 
-### 4.4 QR Code and URL Integration:
-- QR Code and URL for Registration, Renewal, and Request Certification to guide users to additional websites for initiation.
+3. **User Experience Improvement:** Analysis of the overall client experience considering factors such as accessibility, clarity, and responsiveness. Measures will be implemented to enhance the user experience, ensuring accurate information delivery and fostering increased client satisfaction.
 
-## 🚀 Project Execution:
+4. **Operational Efficiency:** Scrutiny of operational efficiency, assessing the impact of the Information Kiosk on overall efficiency. Implementation of streamlined processes aimed at reducing queues and handling times, thereby enhancing the overall operational efficiency of the Bacoor City Livelihood Office.
 
-### 5.1 Project Phases:
-- Coding and Testing (January 22 - February 2, 2024)
-- Initial Deployment (February 2, 2024)
-- Version 1.0 Release (February 6, 2024)
-- Version 1.1.3 Release (March 2, 2024)
+5. **Training and Adoption:** Development of training programs for staff to effectively utilize and manage the Information Kiosk. Awareness promotion and encouragement initiatives will be implemented to encourage clients to engage with the new technology.
 
-## 🔄 Traditional Approach vs. Solution:
+6. **Feedback Mechanism:** Establishment of a Feedback Mechanism to continuously assess the effectiveness of the Information Kiosk. This iterative process will involve making improvements based on feedback, ensuring sustained enhancements in client-service interactions.
 
-### 6.1 Problem Statement:
-- Clients not reading hard-copy citizen charters, contributing to longer handling times.
+The study will be conducted exclusively within the confines of the Bacoor City Livelihood Office, with the overarching goal of transforming and optimizing current client service processes through the strategic implementation of technology and improved communication methods.
 
-### 6.2 Solution:
-- Digitization of citizen charter with zoom functionality for easy access and understanding. Removal of paper postings for cleanliness and ISO compliance.
+### Limitations of the Study
 
-## 📢 Communication and Outreach:
+In the pursuit of improving client-service interaction at the Negosyo Center through the Information Kiosk project, it is crucial to recognize several inherent limitations that may impact the study’s scope and applicability. Firstly, the focus solely on the Bacoor City Livelihood Office restricts the generalizability of findings to other locations or contexts. Additionally, time constraints may limit the depth of the study, particularly in understanding long-term effects and sustainability. Resource limitations, both financial and human, might impact the extent of technology integration and the execution of large-scale awareness campaigns.
 
-### 7.1 Digital Communication:
-- Social media, email, and physical notices within the Negosyo Center.
-
-## ⚠️ Risks and Mitigation:
-
-### 8.1 Risks:
-- Technical glitches during deployment.
-- Resistance from clients in adopting the new digital format.
-
-### 8.2 Mitigation:
-- Rigorous testing and QA procedures.
-- Conducting awareness sessions for clients.
-
-## 🤝 Stakeholders:
-
-- Negosyo Center Bacoor
-- Bacoor City Livelihood Office
-- MSMEs
-- DTI
-
-## 🔗 Additional Sections:
-
-### 10. Approval:
-
-This BRD is subject to approval by Negosyo Center Bacoor and Bacoor City Livelihood Office representatives.
-
-### 11. Project Contact:
-
-For further information, contact Ritz Carl Feliciano at rc.feliciano013097@gmail.com.
-
-**Note:** This document serves as a guide for the Information Kiosk Digitization Project and is subject to updates and modifications as required during the project lifecycle.
+Moreover, potential staff resistance or training gaps could affect the successful utilization of the Information Kiosk, influencing the overall project outcomes. The project’s dependence
