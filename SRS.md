@@ -138,7 +138,7 @@ User documentation will be provided to guide clients on how to interact with the
     - Non-functional
   - Diagrams and Models
 
-## 5. Tablet Specifications
+## 5. Tablet Specifications 📱💻
 
 ### 5.1 Brand and Model
 
@@ -162,7 +162,7 @@ User documentation will be provided to guide clients on how to interact with the
 - **Wireless Connectivity:** WLAN 802.11 b/g/n
 - **Battery Capacity:** 5000mAh
 
-## 6. Software Details
+## 6. Software Details 💻📊
 
 ### 6.1 Deployment
 
@@ -173,7 +173,7 @@ User documentation will be provided to guide clients on how to interact with the
 - **Technologies Used:** HTML, Bootstrap
 - **Deployment Platform:** Vercel
 
-## 7. Kiosk Features
+## 7. Kiosk Features 🛠️
 
 ### 7.1 User Interface Elements
 
