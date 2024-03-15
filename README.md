@@ -115,7 +115,14 @@ The Information Kiosk project draws upon several theoretical foundations to guid
 - **Diffusion of Innovations Theory:** Guides the understanding of how new ideas or technologies are adopted and spread within a social system, helping tailor strategies for effective training, awareness promotion, and encouraging clients to engage with the new technology.
 - **Human-Computer Interaction (HCI) Principles:** Ensure the Information Kiosk’s design aligns with user expectations and promotes a positive user experience, aiming to minimize user errors, enhance information accessibility, and foster user satisfaction.
 
+**BJ Fogg's Behavior Model Application:**
+
+1. **Trigger:** Identify triggers that prompt users to interact with the Information Kiosk. Triggers can be external (e.g., signage, promotional materials) or internal (e.g., user needs, motivations).
+2. **Ability:** Simplify the interaction process by ensuring the kiosk is easy to access and use. Design the interface with clear instructions, intuitive navigation, and minimal cognitive load to enhance user ability.
+3. **Motivation:** Understand user motivations and tailor the kiosk's content and features to align with their needs and goals. Highlight benefits, incentives, or rewards for using the kiosk to increase motivation.
+
 The overarching framework combines these theories, providing a comprehensive approach to address the underutilization of technology and inefficiency in communication at the Negosyo Center. By synthesizing these theoretical perspectives, the study aims to offer a robust foundation for the successful implementation and evaluation of the Information Kiosk project, with the ultimate goal of transforming and optimizing client service processes.
+
 
 ### Conceptual Framework of the Study 💡
 
