@@ -45,6 +45,7 @@ The primary beneficiary of this Information Kiosk is the Bacoor City Livelihood 
       - [1. Requirements Analysis for Business Name Registration Website:](#1-requirements-analysis-for-business-name-registration-website)
       - [2. Requirements Analysis for Information Kiosk Project:](#2-requirements-analysis-for-information-kiosk-project)
       - [Sitemap 🗺️](#sitemap-️)
+      - [WireFrame 🗺️](#wireframe-️)
       - [Sequence Diagram of Existing and Proposed System 🔄](#sequence-diagram-of-existing-and-proposed-system-)
       - [Sequence Diagram of Existing System 🔄](#sequence-diagram-of-existing-system-)
     - [Sequence Diagram of Proposed System 🔄](#sequence-diagram-of-proposed-system-)
@@ -161,25 +162,27 @@ The overarching framework combines these theories, providing a comprehensive app
 
 ### Conceptual Framework of the Study 💡
 
-| **INPUT**                                | **PROCESS**                                              | **OUTPUT**                            |
+| **Inputs**                               | **Processes**                                            | **Outputs**                           |
 |------------------------------------------|----------------------------------------------------------|--------------------------------------|
-| Knowledge Requirements:                  | Software Design and Development using Agile Model:      | Information Kiosk for Negosyo Center |
-| - HTML                                   | Requirements                                             | Bacoor                                 |
-| - CSS                                    | Design                                                   |                                      |
-| - Bootstrap                              | Development                                              |                                      |
-| - Github                                 | Test                                                     |                                      |
-| - Git                                    | Deployment                                               |                                      |
-| - Vercel                                 | Review                                                   |                                      |
-| - Visual Studio Code                     |                                                          |                                      |
-| Software Requirements:                   |                                                          |                                      |
+| **Knowledge Requirements:**             | **Software Design and Development using Agile Model:**  | **Information Kiosk for Negosyo Center** |
+| - HTML                                   | - Define the requirements for the project.               | - Implementation of the Information Kiosk system in Bacoor.  |
+| - CSS                                    | - Design the user interface and visual elements.         |                                      |
+| - Bootstrap                              | - Develop the software components using Agile methodology. |                                      |
+| - Github                                 | - Test the functionality and performance of the system.  |                                      |
+| - Git                                    | - Deploy the Information Kiosk for public use.           |                                      |
+| - Vercel                                 | - Review and gather feedback for iterative improvements. |                                      |
+| - Visual Studio Code                     | - Manage the project and codebase efficiently.           |                                      |
+| **Software Requirements:**              | - Ensure compatibility with Android 10 and Firefox v123.0. |                                      |
 | - Android 10                             |                                                          |                                      |
 | - Firefox v123.0                         |                                                          |                                      |
-| Hardware Requirements:                   |                                                          |                                      |
-| - Tablet                                 |                                                          |                                      |
-| - 10.1” Display                          |                                                          |                                      |
-| - Wall Mounting                          |                                                          |                                      |
-| - Charger                                |                                                          |                                      |
-| - Wifi Router                            |                                                          |                                      |
+| **Hardware Requirements:**              | - Select and procure the necessary hardware components.  |                                      |
+| - Tablet                                 | - Install and mount the tablet for public access.        |                                      |
+| - 10.1” Display                          | - Ensure the display size meets usability requirements.  |                                      |
+| - Wall Mounting                          | - Securely attach the tablet to a suitable location.     |                                      |
+| - Charger                                | - Provide power supply for continuous operation.         |                                      |
+| - Wifi Router                            | - Enable internet connectivity for online functionality. |                                      |
+
+
 
 ### Chapter 2: Review of Related Studies and Literature 📖
 
@@ -329,11 +332,13 @@ The requirements analysis phase is pivotal in defining the scope and objectives 
 
 #### Sitemap 🗺️
 
-The sitemap provides a visual representation of the hierarchical structure and navigation flow of the website/system. It outlines the arrangement of pages or sections and their relationships, facilitating an understanding of the overall architecture and user journey.
+The sitemap provides a visual representation of the hierarchical structure and navigation flow of the website. It outlines the arrangement of pages or sections and their relationships, facilitating an understanding of the overall architecture and user journey.
 
 ![Sitemap](/public/documents/diagrams/Sitemap.png)[Source](https://octopus.do/fhe4eli9mi9)
 
 The thorough analysis of requirements ensures alignment with project objectives and stakeholder expectations, ultimately leading to the successful implementation of both projects.
+
+#### WireFrame 🗺️
 
 ---
 
