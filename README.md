@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-# Title: Enhancing Client-Service Interactions at Negosyo Center through Information Kiosk Optimization
-
-## Abstract
-
-The research focuses on optimizing client-service interactions at the Negosyo Center by addressing the underutilization of a government-issued tablet. Key findings include efficiency improvements, enhanced client engagement, and compliance with ARTA and ISO standards. The study contributes by providing insights for similar initiatives.
-=======
 # Developing Information Kiosk: An Innovative Project for Negosyo Center Bacoor
 
 ## Abstract 📝
@@ -15,17 +8,39 @@ The primary beneficiary of this Information Kiosk is the Bacoor City Livelihood 
 
 ## Table of Contents 🌐
 
-- [Approval Sheet](#approval-sheet)
-- [Acknowledgement](#acknowledgement)
-- [Dedication](#dedication)
+- [Developing Information Kiosk: An Innovative Project for Negosyo Center Bacoor](#developing-information-kiosk-an-innovative-project-for-negosyo-center-bacoor)
+  - [Abstract 📝](#abstract-)
+  - [Table of Contents 🌐](#table-of-contents-)
+  - [Approval Sheet 📄](#approval-sheet-)
+  - [Acknowledgement 🙏](#acknowledgement-)
+  - [Dedication 🌟](#dedication-)
+  - [Chapter 1: The Problem and Its Background 📚](#chapter-1-the-problem-and-its-background-)
+    - [Introduction 🌱](#introduction-)
 - [Chapter 1: The Problem and Its Background](#chapter-1-the-problem-and-its-background)
-- [Chapter 2: Review of Related Studies and Literature](#chapter-2-review-of-related-studies-and-literature)
-- [Chapter 3: Research Methodology](#chapter-3-research-methodology)
-- [Chapter 4: Presentation, Analysis, and Interpretation of Data](#chapter-4-presentation-analysis-and-interpretation-of-data)
-- [Chapter 5: Summary, Conclusions, and Recommendations](#chapter-5-summary-conclusions-and-recommendations)
-- [List of Tables and Figures](#list-of-tables-and-figures)
-- [References](#references)
-- [Appendices](#appendices)
+  - [1.1 Introduction](#11-introduction)
+    - [Background of the Study 🌍](#background-of-the-study-)
+  - [1.3 Statement of the Problem](#13-statement-of-the-problem)
+    - [Statement of the Problem ❓](#statement-of-the-problem-)
+      - [Main Problem](#main-problem)
+      - [Specific Problem](#specific-problem)
+    - [Objectives of the Study 🎯](#objectives-of-the-study-)
+      - [Main Objective](#main-objective)
+      - [Specific Objectives](#specific-objectives)
+    - [Scope and Limitation 📌](#scope-and-limitation-)
+      - [Scope of the Study](#scope-of-the-study)
+      - [Limitations of the Study](#limitations-of-the-study)
+    - [Theoretical Framework of the Study 🧠](#theoretical-framework-of-the-study-)
+    - [Conceptual Framework of the Study 💡](#conceptual-framework-of-the-study-)
+    - [Chapter 2: Review of Related Studies and Literature 📖](#chapter-2-review-of-related-studies-and-literature-)
+      - [Related Literature 📖](#related-literature-)
+      - [Synthesis 🔍](#synthesis-)
+    - [Chapter 3: Research Methodology 📊](#chapter-3-research-methodology-)
+      - [Program Design 🛠️](#program-design-️)
+      - [Program Flowchart of Existing and Proposed System 🔄](#program-flowchart-of-existing-and-proposed-system-)
+    - [Chapter 5: Summary, Conclusions, and Recommendations 📝](#chapter-5-summary-conclusions-and-recommendations-)
+  - [List of Tables and Figures 📊📸](#list-of-tables-and-figures-)
+  - [References 📚](#references-)
+  - [Appendices 📑](#appendices-)
 
 ## Approval Sheet 📄
 
@@ -48,7 +63,6 @@ I dedicate this work to my Family, the Bacoor City Livelihood and Development Of
 ### Introduction 🌱
 
 In the ever-evolving landscape of public service, technology plays a pivotal role in reshaping efficiency and accessibility. This research introduces an Information Kiosk crafted for the Bacoor City Livelihood and Development Office, leveraging HTML and Bootstrap. This tablet-friendly solution addresses intricate administrative processes tied to business registration.
->>>>>>> 26408ff46b0df6a8c3e68661373f90d195eb4751
 
 # Chapter 1: The Problem and Its Background
 
@@ -56,11 +70,7 @@ In the ever-evolving landscape of public service, technology plays a pivotal rol
 
 The Negosyo Center faces challenges in client interactions, necessitating the need for an Information Kiosk. The overarching problem is the underutilization of a government-issued tablet.
 
-<<<<<<< HEAD
-## 1.2 Background of the Study
-=======
 ### Background of the Study 🌍
->>>>>>> 26408ff46b0df6a8c3e68661373f90d195eb4751
 
 The current state of Negosyo Center operations reveals inefficiencies, and the tablet underutilization exacerbates these issues. The proposed Information Kiosk aims to address these challenges.
 
@@ -68,43 +78,18 @@ The current state of Negosyo Center operations reveals inefficiencies, and the t
 
 Challenges faced by the City Livelihood and Development Office and tablet underutilization contribute to inefficiencies. Addressing these problems is crucial for streamlined client interactions.
 
-<<<<<<< HEAD
-## 1.4 Objectives of the Study
-
-### 1.4.1 Main Objective
-=======
 ### Statement of the Problem ❓
 
 #### Main Problem
->>>>>>> 26408ff46b0df6a8c3e68661373f90d195eb4751
 
 Optimize client experience at the Negosyo Center through Information Kiosk implementation.
 
-<<<<<<< HEAD
-### 1.4.2 Specific Objectives
-=======
 #### Specific Problem
->>>>>>> 26408ff46b0df6a8c3e68661373f90d195eb4751
 
 1. Resolve tablet installation challenges.
 2. Improve Negosyo Center efficiency.
 3. Align with ARTA and ISO standards.
 
-<<<<<<< HEAD
-## 1.5 Scope and Limitation
-
-The study covers aspects of client-service interactions and acknowledges limitations in Information Kiosk implementation.
-
-## 1.6 Theoretical Framework of the Study
-
-The study draws on theories related to client-service interactions and technology adoption to guide Information Kiosk design and implementation.
-
-## 1.7 Conceptual Framework of the Study
-
-The proposed Information Kiosk contributes to the broader context of enhancing service delivery through improved client interactions.
-
-## 1.8 Significance of the Study
-=======
 ### Objectives of the Study 🎯
 
 #### Main Objective
@@ -122,91 +107,9 @@ The primary objective of the Information Kiosk project is to optimize the client
 ### Scope and Limitation 📌
 
 #### Scope of the Study
->>>>>>> 26408ff46b0df6a8c3e68661373f90d195eb4751
 
 The study's potential impacts on Negosyo Center operations extend to providing valuable insights for similar initiatives.
 
-<<<<<<< HEAD
-## 1.9 Definition of Terms
-
-Key terms are defined to ensure a common understanding among readers.
-
-# Chapter 2: Review of Related Studies and Literature
-
-## 2.1 Related Studies
-
-Previous studies related to Information Kiosks inform and support research objectives.
-
-## 2.2 Related Literature
-
-Existing literature on client-service interactions in government offices contributes to the theoretical foundations of the study.
-
-## 2.3 References
-
-Citations from relevant studies and literature are included.
-
-## 2.4 Synthesis
-
-Related studies and literature inform research questions and objectives.
-
-# Chapter 3: Research Methodology
-
-## 3.1 Program Design
-
-The Information Kiosk project's overall design aligns with research objectives.
-
-## 3.2 Program Flowchart
-
-Existing and proposed system flowcharts illustrate the expected processes.
-
-## 3.3 System Development Life Cycle
-
-The development stages of the Information Kiosk contribute to achieving project objectives.
-
-## 3.4 Context Diagram
-
-The context diagram provides an overview of the Information Kiosk system structure and interactions.
-
-## 3.5 Diagram 0
-
-Diagram 0 offers a high-level overview of Information Kiosk project processes.
-
-# Chapter 4: Presentation, Analysis, and Interpretation of Data
-
-## 4.1 Data Presentation and Analysis
-
-Data related to the Information Kiosk project is analyzed, contributing to problem resolution.
-
-## 4.2 Population and Sampling of Data
-
-The target population and sample selection process are outlined.
-
-## 4.3 Evaluation Procedure
-
-Criteria for evaluating the Information Kiosk's effectiveness and data interpretation during evaluation are discussed.
-
-# Chapter 5: Summary, Conclusions, and Recommendations
-
-## 5.1 Summary
-
-Key findings related to efficiency improvements, client engagement, and compliance are summarized.
-
-## 5.2 Conclusions
-
-Conclusions are drawn from presented data, addressing challenges and optimizing client interactions.
-
-## 5.3 Recommendations
-
-Suggestions for sustained Information Kiosk improvements, staff training, and feedback mechanisms are provided.
-
-# Table of Appendices
-
-Supplementary materials, documents, and data included in the appendices are listed.
-
-# Appendices
-
-Specific documents and data supporting the thesis, such as the Information Kiosk program code, user manuals, and feedback reports, are included.
-=======
 - Technology Integration: Examination of the current state of tablet utilization and implementation of strategies for enhancing engagement and utilization.
 - Communication Effectiveness: Evaluation of existing methods such as traditional paper postings and introduction of more efficient communication channels.
 - User Experience Improvement: Analysis of the overall client experience considering factors such as accessibility, clarity, and responsiveness, followed by measures to enhance it.
@@ -241,7 +144,6 @@ The Information Kiosk project draws upon several theoretical foundations to guid
 
 The overarching framework combines these theories, providing a comprehensive approach to address the underutilization of technology and inefficiency in communication at the Negosyo Center. By synthesizing these theoretical perspectives, the study aims to offer a robust foundation for the successful implementation and evaluation of the Information Kiosk project, with the ultimate goal of transforming and optimizing client service processes.
 
-
 ### Conceptual Framework of the Study 💡
 
 | **INPUT**                                | **PROCESS**                                              | **OUTPUT**                            |
@@ -264,38 +166,33 @@ The overarching framework combines these theories, providing a comprehensive app
 | - Charger                                |                                                          |                                      |
 | - Wifi Router                            |                                                          |                                      |
 
-## Chapter 2: Review of Related Studies and Literature 📖
+### Chapter 2: Review of Related Studies and Literature 📖
 
-### Related Studies 📚
+#### Related Literature 📖
 
-### Related Literature 📖
+Eleanor D. Glor's study on key factors influencing innovation in government serves as a foundational piece in understanding the dynamics of innovation within public sector organizations. Glor's research explores the various factors that contribute to successful innovation initiatives in government, shedding light on critical aspects such as organizational culture, leadership support, resource allocation, and stakeholder engagement. By examining case studies and empirical evidence, Glor identifies key drivers and barriers to innovation, providing valuable insights for practitioners and policymakers seeking to foster innovation in government agencies.
 
-### Synthesis 🔍
+#### Synthesis 🔍
 
-## Chapter 3: Research Methodology 📊
+Integrating Glor's study into the synthesis section allows for a comprehensive analysis of innovation in government and its implications for the development of the Information Kiosk project at the Bacoor City Livelihood and Development Office. By synthesizing Glor's findings with existing literature on technology adoption and organizational change, this section illuminates the contextual factors shaping innovation processes within government agencies. Furthermore, it underscores the importance of addressing institutional challenges and leveraging supportive frameworks to facilitate the successful implementation of innovative solutions, such as the Information Kiosk, in public service delivery.
 
-### Program Design 🛠️
+### Chapter 3: Research Methodology 📊
 
-### Program Flowchart of Existing and Proposed System 🔄
+#### Program Design 🛠️
 
-### System Development Life Cycle 🔄
+Drawing upon insights from Glor's study, the program design phase incorporates strategies for promoting innovation within the Bacoor City Livelihood and Development Office. By aligning with Glor's identified key factors influencing innovation in government, such as leadership commitment and stakeholder collaboration, the program design aims to create an enabling environment conducive to the adoption and sustainability of the Information Kiosk project. This phase emphasizes the importance of organizational readiness and capacity building in driving innovation initiatives forward, guided by Glor's research-informed recommendations.
 
-### Context Diagram 🌐
+#### Program Flowchart of Existing and Proposed System 🔄
 
-### Diagram 0 🔄
+In developing the program flowchart, Glor's study informs the identification of critical decision points and process dependencies inherent in innovation projects within government settings. By mapping out the flow of activities and interactions involved in implementing the Information Kiosk, this flowchart integrates Glor's insights into the practical realities of navigating bureaucratic structures and mobilizing support for innovation initiatives. Additionally, it highlights the iterative nature of the innovation process, emphasizing the need for continuous evaluation and adaptation based on stakeholder feedback and evolving organizational needs.
 
-## Chapter 4: Presentation, Analysis, and Interpretation of Data 📊
+### Chapter 5: Summary, Conclusions, and Recommendations 📝
 
-### Population and Sampling of Data 📊
-
-### Evaluation Procedure 📝
-
-## Chapter 5: Summary, Conclusions, and Recommendations 📝
-
+In the concluding chapter, Glor's study serves as a touchstone for reflecting on the broader implications of the Information Kiosk project and offering recommendations for future research and practice. By synthesizing the key findings from Glor's research with the project's outcomes and lessons learned, this section underscores the significance of addressing systemic barriers to innovation in government and advocating for a culture of experimentation and learning. Furthermore, it provides actionable recommendations for sustaining the momentum of innovation beyond the initial implementation phase, drawing on Glor's insights into the importance of leadership support, capacity building, and stakeholder engagement.
 ## List of Tables and Figures 📊📸
 
 ## References 📚
 
-## Appendices 📑
+- Glor, E. D. (2001). Key factors influencing innovation in government. The Innovation Journal: The Public Sector Innovation Journal, 6(2).
 
->>>>>>> 26408ff46b0df6a8c3e68661373f90d195eb4751
+## Appendices 📑
