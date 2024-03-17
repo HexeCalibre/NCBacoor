@@ -36,7 +36,18 @@ The primary beneficiary of this Information Kiosk is the Bacoor City Livelihood 
       - [Synthesis 🔍](#synthesis-)
     - [Chapter 3: Research Methodology 📊](#chapter-3-research-methodology-)
       - [Program Design 🛠️](#program-design-️)
-      - [Program Flowchart of Existing and Proposed System 🔄](#program-flowchart-of-existing-and-proposed-system-)
+      - [Agile Model Implementation 🔄](#agile-model-implementation-)
+      - [What is Agile?](#what-is-agile)
+      - [Agile Vs Traditional SDLC Models](#agile-vs-traditional-sdlc-models)
+      - [Agile Model - Pros and Cons](#agile-model---pros-and-cons)
+      - [Agile Model Lifecycle Phases:](#agile-model-lifecycle-phases)
+    - [Requirements Analysis 📋](#requirements-analysis-)
+      - [1. Requirements Analysis for Business Name Registration Website:](#1-requirements-analysis-for-business-name-registration-website)
+      - [2. Requirements Analysis for Information Kiosk Project:](#2-requirements-analysis-for-information-kiosk-project)
+      - [Sitemap 🗺️](#sitemap-️)
+      - [Sequence Diagram of Existing and Proposed System 🔄](#sequence-diagram-of-existing-and-proposed-system-)
+      - [Sequence Diagram of Existing System 🔄](#sequence-diagram-of-existing-system-)
+    - [Sequence Diagram of Proposed System 🔄](#sequence-diagram-of-proposed-system-)
     - [Chapter 5: Summary, Conclusions, and Recommendations 📝](#chapter-5-summary-conclusions-and-recommendations-)
   - [List of Tables and Figures 📊📸](#list-of-tables-and-figures-)
   - [References 📚](#references-)
@@ -138,6 +149,10 @@ The Information Kiosk project draws upon several theoretical foundations to guid
 
 **BJ Fogg's Behavior Model Application:**
 
+| **BJ Fogg's Behavior Model Application** | **BJ Fogg's Behavior Grid** |
+|-----------------------------------------|-----------------------------|
+| ![BJ Fogg's Behavior Model Application](/public/documents/diagrams/Fogg-Behavior-Model.jpg)[Source](https://behaviormodel.org/wp-content/uploads/2020/08/Fogg-Behavior-Model.jpg) | ![BJ Fogg's Behavior Grid](/public/documents/diagrams/BJ%20Fogg%20Behavior%20Grid.png)[Source](https://behaviordesign.stanford.edu/sites/g/files/sbiybj23031/files/styles/responsive_large/public/media/image/foggbehaviorgrid_0.png?itok=ETiDs7gC) |
+
 1. **Trigger:** Identify triggers that prompt users to interact with the Information Kiosk. Triggers can be external (e.g., signage, promotional materials) or internal (e.g., user needs, motivations).
 2. **Ability:** Simplify the interaction process by ensuring the kiosk is easy to access and use. Design the interface with clear instructions, intuitive navigation, and minimal cognitive load to enhance user ability.
 3. **Motivation:** Understand user motivations and tailor the kiosk's content and features to align with their needs and goals. Highlight benefits, incentives, or rewards for using the kiosk to increase motivation.
@@ -180,11 +195,173 @@ Integrating Glor's study into the synthesis section allows for a comprehensive a
 
 #### Program Design 🛠️
 
-Drawing upon insights from Glor's study, the program design phase incorporates strategies for promoting innovation within the Bacoor City Livelihood and Development Office. By aligning with Glor's identified key factors influencing innovation in government, such as leadership commitment and stakeholder collaboration, the program design aims to create an enabling environment conducive to the adoption and sustainability of the Information Kiosk project. This phase emphasizes the importance of organizational readiness and capacity building in driving innovation initiatives forward, guided by Glor's research-informed recommendations.
+#### Agile Model Implementation 🔄
 
-#### Program Flowchart of Existing and Proposed System 🔄
+![Agile Model](/public/documents/diagrams/Agile-software-Development-Life-Cycle-1.jpg)
+[Source](https://bitbytesoft.com/wp-content/uploads/2022/01/Agile-software-Development-Life-Cycle-1.jpg)
+
+The program design adopts the Agile Model to facilitate iterative development and responsiveness to changing requirements. Agile principles such as iterative planning, continuous feedback, and adaptive responses align with the dynamic nature of innovation initiatives, enabling rapid prototyping and experimentation. By embracing the Agile approach, the program design fosters a culture of collaboration, flexibility, and transparency, allowing stakeholders to actively participate in the development process and contribute to the evolution of the Information Kiosk project. This iterative methodology ensures that the kiosk's features and functionalities are aligned with user needs and organizational goals, maximizing its effectiveness and sustainability in addressing the challenges identified in Glor's study.
+
+#### What is Agile?
+https://www.tutorialspoint.com/sdlc/sdlc_agile_model.htm
+
+Agile is an iterative approach to software development that emphasizes flexibility, collaboration, and customer feedback. It prioritizes delivering functional software in short, frequent cycles, allowing teams to respond to changing requirements and customer needs quickly.
+
+#### Agile Vs Traditional SDLC Models
+
+| **Agile Model**       | **Traditional SDLC Models** |
+|-----------------------|-----------------------------|
+| Emphasizes flexibility| Follows a linear approach   |
+| Customer involvement   | Minimal customer involvement|
+| Adaptive planning      | Detailed planning upfront   |
+| Incremental delivery   | Delivery at the end of the project |
+| Iterative development  | Sequential development phases |
+| Continuous feedback    | Limited feedback until the end |
+
+#### Agile Model - Pros and Cons
+
+| **Pros**                           | **Cons**                                |
+|------------------------------------|-----------------------------------------|
+| Flexibility and adaptability       | Lack of predictability                  |
+| Customer satisfaction              | Requires experienced team members       |
+| Rapid response to changes          | Dependency on customer availability    |
+| Early delivery of working software | Potential for scope creep               |
+| Collaborative work environment     | Difficulty in measuring progress       |
+| Continuous improvement             | Initial learning curve for stakeholders|
+
+#### Agile Model Lifecycle Phases:
+
+1. **Planning:** Involves identifying project scope, defining objectives, and setting priorities for the upcoming iteration.
+   
+2. **Requirements Analysis:** Collaboratively gathering and refining user stories, features, and functionalities required for the iteration.
+   
+3. **Design:** Creating the architecture, wireframes, and prototypes based on the gathered requirements.
+   
+4. **Coding:** Implementing the design and developing the features iteratively, typically in short cycles known as sprints.
+   
+5. **Unit Testing:** Conducting automated and manual tests to verify the functionality of individual components or units of code.
+   
+6. **Acceptance Testing:** Demonstrating the completed features to stakeholders and obtaining their feedback for validation and acceptance.
+
+These phases are repeated iteratively throughout the Agile development process, with each iteration resulting in a potentially shippable increment of the product.
+
+---
+
+### Requirements Analysis 📋
+
+The requirements analysis phase is pivotal in defining the scope and objectives of the project while considering the needs of stakeholders and adhering to regulatory standards. Below are the updated requirements analyses for both projects:
+
+#### 1. Requirements Analysis for Business Name Registration Website:
+
+**Functional Requirements:**
+
+| Requirement               | Definition                                                                                                          |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Information Display       | Display registration-related information, including requirements, fees, and instructions, in an organized manner.   |
+| Accordion Functionality  | Implement accordion components to streamline navigation through different sections of the website.                  |
+| QR Code Integration      | Integrate QR codes to provide quick access to registration links and additional resources for users.                |
+| Link Functionality        | Enable users to click on links within the content to access detailed information or external resources.           |
+
+**Non-functional Requirements:**
+
+| Requirement       | Definition                                                                                       |
+|-------------------|--------------------------------------------------------------------------------------------------|
+| Performance       | Ensure response time within 2 seconds for loading content and accordion sections for a smooth user experience. |
+| User Interface   | Design a clear and concise layout with intuitive elements for easy comprehension of registration procedures. |
+| Accessibility    | Ensure text readability, color contrast, and interactive elements are accessible for users with diverse needs. |
+| Portability      | Guarantee compatibility and responsiveness across different screen sizes, especially on NC-Bacoor Tablets. |
+
+**Technical Requirements:**
+
+| Requirement         | Definition                                                                                                       |
+|---------------------|------------------------------------------------------------------------------------------------------------------|
+| HTML Structure      | Utilize semantic HTML tags and proper document structure for accessibility and search engine optimization (SEO). |
+| Bootstrap Framework | Integrate Bootstrap CSS and JS for consistent styling and responsive design across various devices and screen sizes. |
+
+**Regulatory and Compliance Requirements:**
+
+| Requirement    | Definition                                                                                                     |
+|----------------|----------------------------------------------------------------------------------------------------------------|
+| Compliance     | Adhere to government regulations and standards for online registration processes and business operations.     |
+| Data Security  | Implement secure data transmission protocols to safeguard user information during registration.                |
+
+#### 2. Requirements Analysis for Information Kiosk Project:
+
+**Functional Requirements:**
+
+| Requirement         | Definition                                                                                                           |
+|---------------------|----------------------------------------------------------------------------------------------------------------------|
+| Information Display | Digitized display of relevant information on the kiosk screen, including services offered and relevant announcements. |
+| Client Interaction  | Enable user input for inquiries, feedback submission, and navigation through the kiosk interface.                    |
+| Feedback Mechanism | Provide a mechanism for collecting user feedback and suggestions to improve system functionality and user experience. |
+
+**Non-functional Requirements:**
+
+| Requirement      | Definition                                                                                   |
+|------------------|----------------------------------------------------------------------------------------------|
+| Performance      | Ensure response time within 2 seconds to ensure prompt interaction with the kiosk.             |
+| Reliability      | Maintain an uptime of at least 99% to ensure uninterrupted availability of kiosk services.    |
+| Maintainability  | Provide regular updates and documentation to facilitate ongoing maintenance and support.      |
+| Portability      | Ensure easy relocation within the Negosyo Center premises for optimal placement and accessibility. |
+
+**User Requirements:**
+
+| Requirement             | Definition                                                                                       |
+|-------------------------|--------------------------------------------------------------------------------------------------|
+| User Interface Design   | Design an intuitive and user-friendly interface for easy navigation and interaction with the kiosk. |
+| Content Presentation    | Present information clearly and concisely to facilitate understanding and decision-making for users. |
+| Accessibility Features  | Include features such as text resizing and color contrast adjustments to accommodate diverse user needs. |
+
+**Technical Requirements:**
+
+| Requirement               | Definition                                                                                                           |
+|---------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Hardware Specifications   | Utilize a government-issued tablet with specified hardware specifications for optimal performance.                    |
+| Software Platforms        | Develop the kiosk application using HTML and Bootstrap CSS to ensure compatibility and responsiveness.               |
+| Integration with Systems  | Integrate with existing systems for data retrieval and update to enhance the kiosk's functionality and utility.      |
+
+**Regulatory and Compliance Requirements:**
+
+| Requirement                 | Definition                                                                                                       |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------|
+| Data Privacy Regulations    | Ensure compliance with data privacy regulations to protect the confidentiality and security of user data.         |
+| Accessibility Guidelines    | Conform to accessibility guidelines to ensure equal access and usability for all users, including those with disabilities. |
+
+#### Sitemap 🗺️
+
+The sitemap provides a visual representation of the hierarchical structure and navigation flow of the website/system. It outlines the arrangement of pages or sections and their relationships, facilitating an understanding of the overall architecture and user journey.
+
+![Sitemap](/public/documents/diagrams/Sitemap.png)[Source](https://octopus.do/fhe4eli9mi9)
+
+The thorough analysis of requirements ensures alignment with project objectives and stakeholder expectations, ultimately leading to the successful implementation of both projects.
+
+---
+
+**Program Flowchart of Existing and Proposed System** 🔄
 
 In developing the program flowchart, Glor's study informs the identification of critical decision points and process dependencies inherent in innovation projects within government settings. By mapping out the flow of activities and interactions involved in implementing the Information Kiosk, this flowchart integrates Glor's insights into the practical realities of navigating bureaucratic structures and mobilizing support for innovation initiatives. Additionally, it highlights the iterative nature of the innovation process, emphasizing the need for continuous evaluation and adaptation based on stakeholder feedback and evolving organizational needs.
+
+#### Sequence Diagram of Existing and Proposed System 🔄
+
+In developing the sequence diagrams, Glor's study informs the identification of critical decision points and process dependencies inherent in innovation projects within government settings. By mapping out the flow of activities and interactions involved in implementing the Information Kiosk, these diagrams integrate Glor's insights into the practical realities of navigating bureaucratic structures and mobilizing support for innovation initiatives. Additionally, they highlight the iterative nature of the innovation process, emphasizing the need for continuous evaluation and adaptation based on stakeholder feedback and evolving organizational needs.
+
+#### Sequence Diagram of Existing System 🔄
+
+![Traditional Sequence Diagram](/public/documents/diagrams/Traditional%20Sequence%20Diagram.png) [Source](https://www.mermaidchart.com/app/projects/5eb3b288-88ab-41fc-b2ee-1a99aa0fbe3d/diagrams/5e409bf9-3373-4378-b185-17a1ed4882a4/version/v0.1/edit)
+
+**Description:**
+The sequence diagram for the existing system depicts the current sequence of interactions between different system participants, including clients or MSMEs, receptionists, and DTI tellers. It illustrates the steps involved in client interaction, query forwarding, information provision, and logout procedures within the Negosyo Center. This diagram serves as a representation of the existing process and forms the basis for comparison with the proposed system.
+
+### Sequence Diagram of Proposed System 🔄
+
+![Proposed Sequence Diagram](/public/documents/diagrams/Proposed%20Sequence%20Diagram.png) [Source](https://www.mermaidchart.com/raw/52d32843-420d-42e6-a0f2-bab78f8adc6e?theme=dark&version=v0.1&format=svg)
+
+**Description:**
+The sequence diagram for the proposed system outlines the envisaged sequence of interactions following the implementation of the Information Kiosk and associated process enhancements. It introduces new steps, such as client self-assistance using the Information Kiosk, streamlined query handling, and improved communication between receptionists and DTI tellers. This diagram represents the anticipated changes and improvements in the client-service interaction process, reflecting the objectives of the Information Kiosk project.
+
+
+
+---
 
 ### Chapter 5: Summary, Conclusions, and Recommendations 📝
 
@@ -194,5 +371,7 @@ In the concluding chapter, Glor's study serves as a touchstone for reflecting on
 ## References 📚
 
 - Glor, E. D. (2001). Key factors influencing innovation in government. The Innovation Journal: The Public Sector Innovation Journal, 6(2).
+- Tutorialspoint. (n.d.). Agile model. Retrieved March 3, 2024, from https://www.tutorialspoint.com/sdlc/sdlc_agile_model.html
+
 
 ## Appendices 📑
