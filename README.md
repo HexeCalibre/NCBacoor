@@ -2,9 +2,9 @@
 
 ## Abstract 📝
 
-This research paper explores the development of an innovative Information Kiosk tailored for the Bacoor City Livelihood and Development Office. Leveraging the capabilities of HTML (Hypertext Markup Language) and Bootstrap, the kiosk is specially designed for tablet devices, aiming to streamline and enhance various administrative processes related to business registration and development. The comprehensive content of the kiosk includes features such as DTI (Department of Trade and Industry) business name registration, renewal, certification requests, issuance of certified true copies, FAQs (Frequently Asked Questions), cancellation procedures, business territorial scope upgrades, business name reconsideration, and support for barangay micro-business enterprises.
+This research paper explores the development of an innovative Information Kiosk tailored for the Bacoor City Livelihood and Development Office. Utilizing HTML (Hypertext Markup Language) and Bootstrap, the kiosk is specifically designed for tablet device to streamline administrative processes related to business registration and development. The kiosk's features include DTI (Department of Trade and Industry) business name registration, renewal, certification requests, issuance of certified true copies, FAQs (Frequently Asked Questions), cancellation procedures, business territorial scope upgrades, business name reconsideration, and support for barangay micro-business enterprises.
 
-The primary beneficiary of this Information Kiosk is the Bacoor City Livelihood and Development Office. By implementing this technological solution, the office aims to improve efficiency, reduce processing times, and provide more accessible and user-friendly services for businesses operating within the city. This research contributes to the field by showcasing a practical application of web technologies in a government setting, highlighting the potential impact of user-centric design and technology adoption for administrative processes. The findings of this study may serve as a valuable reference for similar initiatives in other local government units, fostering a more technology-driven and responsive public service landscape.
+The primary beneficiary of this Information Kiosk is the Bacoor City Livelihood and Development Office. By implementing this technological solution, the office aims to enhance efficiency, reduce processing times, and provide more accessible and user-friendly services for businesses operating within the city. This research contributes to the field by demonstrating the practical application of web technologies in a government setting, emphasizing the impact of user-centric design and technology adoption for administrative processes. The findings of this study may serve as a valuable reference for similar initiatives in other local government units, fostering a more technology-driven and responsive public service landscape.
 
 ## Table of Contents 🌐
 
@@ -19,8 +19,7 @@ The primary beneficiary of this Information Kiosk is the Bacoor City Livelihood 
   - [Chapter 1: The Problem and Its Background 📚](#chapter-1-the-problem-and-its-background--1)
     - [Introduction 🌱](#introduction--1)
     - [Background of the Study 🌍](#background-of-the-study-)
-  - [1.3 Statement of the Problem](#13-statement-of-the-problem)
-    - [Statement of the Problem ❓](#statement-of-the-problem-)
+    - [1.3 Statement of the Problem ❓](#13-statement-of-the-problem-)
       - [Main Problem](#main-problem)
       - [Specific Problem](#specific-problem)
     - [Objectives of the Study 🎯](#objectives-of-the-study-)
@@ -74,7 +73,9 @@ I dedicate this work to my Family, the Bacoor City Livelihood and Development Of
 
 ### Introduction 🌱
 
-In the ever-evolving landscape of public service, technology plays a pivotal role in reshaping efficiency and accessibility. This research introduces an Information Kiosk crafted for the Bacoor City Livelihood and Development Office, leveraging HTML and Bootstrap. This tablet-friendly solution addresses intricate administrative processes tied to business registration.
+In the dynamic landscape of public service, technology plays a crucial role in improving efficiency and accessibility. This research introduces an Information Kiosk developed for the Bacoor City Livelihood and Development Office, leveraging HTML and Bootstrap. This tablet-friendly solution addresses complex administrative processes associated with business registration.
+
+The Negosyo Center, serving as a vital hub for entrepreneurship and business development, encounters numerous operational challenges, necessitating innovative solutions for enhanced service delivery. The prevalent issue of technology underutilization, particularly with the government-issued tablet, underscores the necessity for targeted interventions to maximize its potential in facilitating client interactions. Furthermore, the inefficiencies stemming from traditional paper-based communication methods underscore the urgency of adopting streamlined and technology-driven approaches. Through the implementation of the Information Kiosk project, this research aims to confront these challenges head-on, fostering a more efficient, accessible, and client-centric environment at the Bacoor City Livelihood and Development Office.
 
 ## Chapter 1: The Problem and Its Background 📚
 
@@ -96,11 +97,9 @@ The proposed Information Kiosk project emerges as a response to these pressing c
 In addition to addressing immediate operational challenges, the Information Kiosk project aligns with broader government initiatives aimed at enhancing service delivery and promoting economic growth. By embracing innovative solutions and leveraging technology, the Bacoor City Livelihood and Development Office demonstrates its commitment to fostering a conducive environment for entrepreneurship and business development. Moreover, the successful implementation of the Information Kiosk has the potential to serve as a model for other government agencies and localities grappling with similar challenges, contributing to a culture of innovation and excellence in public service delivery.
 
 
-## 1.3 Statement of the Problem
+### 1.3 Statement of the Problem ❓
 
 Challenges faced by the City Livelihood and Development Office and tablet underutilization contribute to inefficiencies. Addressing these problems is crucial for streamlined client interactions.
-
-### Statement of the Problem ❓
 
 #### Main Problem
 
