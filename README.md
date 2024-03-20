@@ -40,11 +40,36 @@ The primary beneficiary of this Information Kiosk is the Bacoor City Livelihood 
       - [Agile Vs Traditional SDLC Models](#agile-vs-traditional-sdlc-models)
       - [Agile Model - Pros and Cons](#agile-model---pros-and-cons)
       - [Agile Model Lifecycle Phases:](#agile-model-lifecycle-phases)
+      - [Continuous Integration Continuous Development (CI/CD) Implementation](#continuous-integration-continuous-development-cicd-implementation)
+      - [What is CI/CD? 🔄](#what-is-cicd-)
+    - [Gitflow Implementation](#gitflow-implementation)
+      - [What is GitFlow 🌱](#what-is-gitflow-)
     - [Requirements Analysis 📋](#requirements-analysis-)
       - [1. Requirements Analysis for Business Name Registration Website:](#1-requirements-analysis-for-business-name-registration-website)
       - [2. Requirements Analysis for Information Kiosk Project:](#2-requirements-analysis-for-information-kiosk-project)
       - [Sitemap 🗺️](#sitemap-️)
       - [WireFrame 🗺️](#wireframe-️)
+      - [What is WireFrame?  🗺️](#what-is-wireframe--️)
+      - [Prototype](#prototype)
+      - [What is Prototype? 🚀](#what-is-prototype-)
+        - [index.html](#indexhtml)
+        - [FAQs](#faqs)
+        - [Registration.html](#registrationhtml)
+        - [BNRS Registration](#bnrs-registration)
+        - [Renewal.html](#renewalhtml)
+        - [BNRS Renewal](#bnrs-renewal)
+        - [Contact Us Modal](#contact-us-modal)
+        - [Citizen Charter Modal](#citizen-charter-modal)
+        - [OtherServices.html](#otherserviceshtml)
+        - [Cancellation.html](#cancellationhtml)
+        - [Certification.html](#certificationhtml)
+        - [BNRS Certification](#bnrs-certification)
+        - [Upgrade.html](#upgradehtml)
+        - [BMBE index](#bmbe-index)
+        - [Reconsideration.html](#reconsiderationhtml)
+        - [ESIGAW Site](#esigaw-site)
+        - [Certified-True-Copy.html](#certified-true-copyhtml)
+        - [Feedback Modal](#feedback-modal)
       - [Sequence Diagram of Existing and Proposed System 🔄](#sequence-diagram-of-existing-and-proposed-system-)
       - [Sequence Diagram of Existing System 🔄](#sequence-diagram-of-existing-system-)
     - [Sequence Diagram of Proposed System 🔄](#sequence-diagram-of-proposed-system-)
@@ -159,6 +184,8 @@ The Information Kiosk project draws upon several theoretical foundations to guid
 
 **BJ Fogg's Behavior Model Application:**
 
+BJ Fogg's Behavior Model, also known as the Fogg Behavior Model (FBM), is a framework for understanding and influencing human behavior. It posits that behavior is a result of the interaction between three elements: motivation, ability, and triggers. According to the model, for a behavior to occur, a person must have sufficient motivation, ability, and a trigger that prompts the behavior.
+
 | **BJ Fogg's Behavior Model Application** | **BJ Fogg's Behavior Grid** |
 |-----------------------------------------|-----------------------------|
 | ![BJ Fogg's Behavior Model Application](/public/documents/diagrams/Fogg-Behavior-Model.jpg)[Source](https://behaviormodel.org/wp-content/uploads/2020/08/Fogg-Behavior-Model.jpg) | ![BJ Fogg's Behavior Grid](/public/documents/diagrams/BJ%20Fogg%20Behavior%20Grid.png)[Source](https://behaviordesign.stanford.edu/sites/g/files/sbiybj23031/files/styles/responsive_large/public/media/image/foggbehaviorgrid_0.png?itok=ETiDs7gC) |
@@ -259,6 +286,43 @@ These phases are repeated iteratively throughout the Agile development process, 
 
 ---
 
+#### Continuous Integration Continuous Development (CI/CD) Implementation
+
+![CI/CD Model](/public/documents/diagrams/CICD.svg)
+[Source](https://www.synopsys.com/glossary/what-is-cicd.html#:~:text=Definition,are%20made%20frequently%20and%20reliably)
+
+Continuous Integration Continuous Development (CI/CD) is a software development approach that automates the process of integrating code changes and deploying applications. It involves the continuous integration of code changes into a shared repository, followed by automated testing and deployment to production environments. CI/CD aims to streamline the software delivery pipeline, allowing development teams to deliver code updates more frequently, reliably, and efficiently. By automating repetitive tasks such as code integration, testing, and deployment, CI/CD reduces the likelihood of errors and accelerates the time-to-market for software products.
+
+#### What is CI/CD? 🔄
+
+CI/CD, short for Continuous Integration Continuous Development, is a software development practice that combines continuous integration (CI) and continuous deployment (CD). It involves automating the process of integrating code changes into a shared repository and deploying applications to production environments. CI/CD aims to streamline the software delivery pipeline, enabling development teams to deliver code updates more frequently, reliably, and efficiently. By automating tasks such as code testing, integration, and deployment, CI/CD enhances collaboration among team members, reduces errors, and accelerates the release cycle of software products.
+
+The CI/CD process typically involves several key stages:
+
+1. **Plan:** This stage involves planning and defining the scope of the project, including setting objectives, identifying tasks, and allocating resources.
+2. **Code:** Development teams write and commit code changes to the shared repository, ensuring version control and collaboration.
+3. **Build:** The code changes are automatically built into executable artifacts, such as binaries or packages, ready for testing.
+4. **Continuous Testing:** Automated tests are run against the built artifacts to verify their functionality, performance, and security.
+5. **Release:** Once the code changes pass the testing stage, they are packaged and prepared for deployment to production environments.
+6. **Deploy:** The release artifacts are deployed to production environments, making the updated software available to end-users.
+7. **Operate:** The deployed software is monitored and managed in production environments to ensure optimal performance and reliability.
+8. **Monitor:** Continuous monitoring and feedback mechanisms are in place to track the performance, usage, and user feedback of the deployed software, informing future iterations and improvements.
+   
+---
+
+### Gitflow Implementation
+
+![Gitflow Model](/public/documents/diagrams/gitflow.png)
+
+[Source](https://lh4.googleusercontent.com/OgtILcXM0mX8ld-rlIyzMPwtQpblVzHjkzOhMaunTxQ8tX5G85TJvsDkqJx_ZWGMtgzTOBx47dhZfYHt07dyxZm96Bjtxy-YXfVPKJ7LTRa5FSX2kptwma5w30mJOOjPgYIGhOc)
+
+#### What is GitFlow 🌱
+(https://medium.com/android-news/gitflow-with-github-c675aa4f606a)
+
+Gitflow is a branching model for Git created by Vincent Driessen. It defines a strict branching model designed around the project release. This workflow facilitates parallel development by defining clear roles for different branches and establishing well-defined rules for how branches interact. Gitflow consists of two main branches: master and develop, as well as supporting branches for feature development, release preparation, and hotfixes. This model enables teams to manage large-scale projects with multiple contributors efficiently and ensures a smooth and organized workflow throughout the development lifecycle.
+
+---
+
 ### Requirements Analysis 📋
 
 The requirements analysis phase is pivotal in defining the scope and objectives of the project while considering the needs of stakeholders and adhering to regulatory standards. Below are the updated requirements analyses for both projects:
@@ -341,13 +405,111 @@ The requirements analysis phase is pivotal in defining the scope and objectives 
 
 #### Sitemap 🗺️
 
+https://octopus.do/sitemap/resource/generator#:~:text=A%20Visual%20Sitemap%20is%20a,starting%20point%20in%20website%20development
+
 The sitemap provides a visual representation of the hierarchical structure and navigation flow of the website. It outlines the arrangement of pages or sections and their relationships, facilitating an understanding of the overall architecture and user journey.
 
 ![Sitemap](/public/documents/diagrams/Sitemap.png)[Source](https://octopus.do/fhe4eli9mi9)
 
 The thorough analysis of requirements ensures alignment with project objectives and stakeholder expectations, ultimately leading to the successful implementation of both projects.
 
+---
+
 #### WireFrame 🗺️
+
+[Live Preview](https://www.figma.com/file/0cLuQkxTmsUzIcsz2Cb4Wp/Fisamiq---Low-fidelity-UI-Kit-(Community)?type=design&node-id=1017-1394&mode=design&t=l2lOLjikNEUT4Zem-0)
+
+![NC Bacoor Kiosk Wireframe](/public/documents/UI/wireframe/Fisamiq%20-%20Low-fidelity%20UI%20Kit%20(NC%20BACOOR%20KIOSK).png)
+
+#### What is WireFrame?  🗺️
+
+https://www.figma.com/resource-library/what-is-wireframing/
+
+A wireframe is a visual representation of a website or application's layout, illustrating the skeletal framework of its various components without detailing design elements like colors or typography. It serves as a blueprint for the user interface, outlining the arrangement of content, navigation, and interactive elements. Wireframes focus on functionality and structure, allowing designers and stakeholders to evaluate the user experience and usability of a digital product before investing in detailed design and development. They facilitate early-stage conceptualization, iteration, and communication among project collaborators, guiding the design process towards creating intuitive and efficient user interfaces.
+
+---
+
+#### Prototype
+
+[Live Preview](https://www.figma.com/proto/0cLuQkxTmsUzIcsz2Cb4Wp/Fisamiq---Low-fidelity-UI-Kit-(Community)?type=design&node-id=1017-1494&t=V0JKbyhjj2WWVkZq-1&scaling=scale-down&page-id=1017%3A1394&starting-point-node-id=1017%3A1396&show-proto-sidebar=1&fbclid=IwAR1-dQv5PLQHPrPCcsP9yFbgGihlR4t4MdKifI65wZ6Mw8S1WtYsAkC9asc)
+
+#### What is Prototype? 🚀
+
+https://roadmap.sh/ux-design
+
+A prototype in UX design is a preliminary version of a product or interface, typically created to test and validate design concepts before final implementation. It serves as a tangible representation of the user experience, allowing designers and stakeholders to evaluate functionality, usability, and visual aesthetics. Prototyping tools like Figma enable designers to build interactive mockups with clickable elements, transitions, and animations, providing a realistic simulation of the final product. By gathering feedback and iterating on prototypes, designers can refine their designs and ensure that the eventual product meets user needs and expectations.
+
+##### index.html
+
+![index.html](/public/documents/UI/wireframe/index-html.png)
+
+##### FAQs
+
+![BNRS FAQs](/public/documents/UI/wireframe/bnrs-faq.png)
+
+##### Registration.html
+
+![Registration.html](/public/documents/UI/wireframe/registration-html.png)
+
+##### BNRS Registration
+
+![BNRS Registration](/public/documents/UI/wireframe/bnrs-registration.png)
+
+##### Renewal.html
+
+![Renewal.html](/public/documents/UI/wireframe/renewal-html.png)
+
+##### BNRS Renewal
+
+![BNRS Renewal](/public/documents/UI/wireframe/bnrs-renewal.png)
+
+##### Contact Us Modal
+
+![Contact Us Modal](/public/documents/UI/wireframe/contact-us-modal.png)
+
+##### Citizen Charter Modal
+
+![Citizen Charter Modal](/public/documents/UI/wireframe/citizen-charter-modal.png)
+
+##### OtherServices.html
+
+![OtherServices.html](/public/documents/UI/wireframe/otherservices-html.png)
+
+##### Cancellation.html
+
+![Cancellation.html](/public/documents/UI/wireframe/cancellation-html.png)
+
+##### Certification.html
+
+![Certification.html](/public/documents/UI/wireframe/certification-html.png)
+
+##### BNRS Certification
+
+![BNRS Certification](/public/documents/UI/wireframe/bnrs-certification.png)
+
+##### Upgrade.html
+
+![Upgrade.html](/public/documents/UI/wireframe/upgrade-html.png)
+
+##### BMBE index
+
+![BMBE index](/public/documents/UI/wireframe/bmbe-index.png)
+
+##### Reconsideration.html
+
+![Reconsideration.html](/public/documents/UI/wireframe/reconsideration-html.png)
+
+##### ESIGAW Site
+
+![ESIGAW Site](/public/documents/UI/wireframe/e-sigaw-site.png)
+
+##### Certified-True-Copy.html
+
+![Certified-True-Copy.html](/public/documents/UI/wireframe/certified-true-copy-html.png)
+
+##### Feedback Modal
+
+![Feedback Modal](/public/documents/UI/wireframe/feedback-modal.png)
 
 ---
 
@@ -373,6 +535,8 @@ The sequence diagram for the existing system depicts the current sequence of int
 **Description:**
 The sequence diagram for the proposed system outlines the envisaged sequence of interactions following the implementation of the Information Kiosk and associated process enhancements. It introduces new steps, such as client self-assistance using the Information Kiosk, streamlined query handling, and improved communication between receptionists and DTI tellers. This diagram represents the anticipated changes and improvements in the client-service interaction process, reflecting the objectives of the Information Kiosk project.
 
+---
+
 
 
 ---
@@ -384,8 +548,12 @@ In the concluding chapter, Glor's study serves as a touchstone for reflecting on
 
 ## References 📚
 
-- Glor, E. D. (2001). Key factors influencing innovation in government. The Innovation Journal: The Public Sector Innovation Journal, 6(2).
-- Tutorialspoint. (n.d.). Agile model. Retrieved March 3, 2024, from https://www.tutorialspoint.com/sdlc/sdlc_agile_model.html
+- Glor, E. D. (2001). Key factors influencing innovation in government. *The Innovation Journal: The Public Sector Innovation Journal, 6*(2).
+- Tutorialspoint. (n.d.). Agile model. Retrieved March 3, 2024, from [https://www.tutorialspoint.com/sdlc/sdlc_agile_model.html](https://www.tutorialspoint.com/sdlc/sdlc_agile_model.html)
+- Synopsys. (n.d.). What is CI/CD? Retrieved March 3, 2024, from [https://www.synopsys.com/glossary/what-is-cicd.html](https://www.synopsys.com/glossary/what-is-cicd.html)
+- Gitflow with GitHub. (n.d.). Medium. Retrieved March 3, 2024, from https://medium.com/android-news/gitflow-with-github-c675aa4f606a
+- Octopus. (n.d.). What is a Visual Sitemap? Retrieved March 3, 2024, from [https://octopus.do/sitemap/resource/generator#:~:text=A%20Visual%20Sitemap%20is%20a,starting%20point%20in%20website%20development.](https://octopus.do/sitemap/resource/generator#:~:text=A%20Visual%20Sitemap%20is%20a,starting%20point%20in%20website%20development.)
+- Figma. (n.d.). What is wireframing? Retrieved March 3, 2024, from [https://www.figma.com/resource-library/what-is-wireframing/](https://www.figma.com/resource-library/what-is-wireframing/)
 
 
 ## Appendices 📑
