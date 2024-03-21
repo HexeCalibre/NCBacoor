@@ -47,9 +47,6 @@ The primary beneficiary of this Information Kiosk is the Bacoor City Livelihood 
     - [Requirements Analysis 📋](#requirements-analysis-)
       - [1. Requirements Analysis for Business Name Registration Website:](#1-requirements-analysis-for-business-name-registration-website)
       - [2. Requirements Analysis for Information Kiosk Project:](#2-requirements-analysis-for-information-kiosk-project)
-      - [Sitemap 🗺️](#sitemap-️)
-      - [WireFrame 🗺️](#wireframe-️)
-      - [What is WireFrame?  🗺️](#what-is-wireframe--️)
       - [Prototype](#prototype)
       - [What is Prototype? 🚀](#what-is-prototype-)
         - [index.html](#indexhtml)
@@ -70,6 +67,8 @@ The primary beneficiary of this Information Kiosk is the Bacoor City Livelihood 
         - [ESIGAW Site](#esigaw-site)
         - [Certified-True-Copy.html](#certified-true-copyhtml)
         - [Feedback Modal](#feedback-modal)
+      - [Implementation](#implementation)
+      - [**Program Flowchart of Existing and Proposed System** 🔄](#program-flowchart-of-existing-and-proposed-system-)
       - [Sequence Diagram of Existing and Proposed System 🔄](#sequence-diagram-of-existing-and-proposed-system-)
       - [Sequence Diagram of Existing System 🔄](#sequence-diagram-of-existing-system-)
     - [Sequence Diagram of Proposed System 🔄](#sequence-diagram-of-proposed-system-)
@@ -270,26 +269,65 @@ Agile is an iterative approach to software development that emphasizes flexibili
 
 #### Agile Model Lifecycle Phases:
 
-1. **Planning:** Involves identifying project scope, defining objectives, and setting priorities for the upcoming iteration.
-   
-2. **Requirements Analysis:** Collaboratively gathering and refining user stories, features, and functionalities required for the iteration.
-   
-3. **Design:** Creating the architecture, wireframes, and prototypes based on the gathered requirements.
-   
-4. **Coding:** Implementing the design and developing the features iteratively, typically in short cycles known as sprints.
-   
-5. **Unit Testing:** Conducting automated and manual tests to verify the functionality of individual components or units of code.
-   
-6. **Acceptance Testing:** Demonstrating the completed features to stakeholders and obtaining their feedback for validation and acceptance.
+1. **Requirements:** 
+   - **Planning:** Involves identifying project scope, defining objectives, and setting priorities for the upcoming iteration. During this phase, various documents are prepared to ensure clarity and alignment with business goals and user needs, including:
+     - **Business Requirements Specification (BRS):** Outlines the high-level objectives and goals of the project from a business perspective, defining overarching goals and expected outcomes.
+     - **Business Rules Document (BRD):** Defines specific rules and regulations governing the operation and behavior of the system, outlining rules and regulations for the information kiosk.
+     - **Product Requirements Document (PRD):** Details functional and non-functional requirements of the system, specifying features and functionalities of the information kiosk.
+   - **Requirements Analysis:** Collaboratively gathering and refining user stories, features, and functionalities required for the iteration.
+     - **Software Requirements Specification (SRS):** Outlines detailed functional and non-functional requirements of the system, detailing specific requirements such as user authentication and data storage.
+     - **Functional Requirements Specification (FRS):** Focuses on functional aspects of the system, detailing tasks and operations the software must perform.
+     - **Non-Functional Requirements Specification (NFRS):** Defines quality attributes and constraints the system must satisfy, ensuring desired levels of quality.
 
-These phases are repeated iteratively throughout the Agile development process, with each iteration resulting in a potentially shippable increment of the product.
+2. **Design:** 
+     - Creating the architecture, wireframes, and prototypes based on the gathered requirements.
+        - **Sitemap:** Provides a visual representation of the hierarchical structure and navigation flow of the website, facilitating an understanding of the overall architecture and user journey.
+       - [To learn more about Sitemap](https://octopus.do/sitemap/resource/generator#:~:text=A%20Visual%20Sitemap%20is%20a,starting%20point%20in%20website%20development)
+
+        - ![Sitemap](/public/documents/diagrams/Sitemap.png)
+        - [Source](https://octopus.do/fhe4eli9mi9)
+
+        - The thorough analysis of requirements ensures alignment with project objectives and stakeholder expectations, ultimately leading to the successful implementation of both projects.
+
+       - **Wireframe:** Visual representation of the layout, illustrating the skeletal framework of components without detailing design elements.
+       - [To learn more about Wire Frame](https://www.figma.com/resource-library/what-is-wireframing/)
+       - [Live Preview of WireFrame](https://www.figma.com/file/0cLuQkxTmsUzIcsz2Cb4Wp/Fisamiq---Low-fidelity-UI-Kit-(Community)?type=design&node-id=1017-1394&mode=design&t=l2lOLjikNEUT4Zem-0)
+     
+     
+       - ![NC Bacoor Kiosk Wireframe](/public/documents/UI/wireframe/Fisamiq%20-%20Low-fidelity%20UI%20Kit%20(NC%20BACOOR%20KIOSK).png)
+  
+       - **Prototype:** Working model of the system demonstrating key features and functionalities. 
+       - [To learn more about Prototype](https://roadmap.sh/ux-design)
+       - [Live Preview](https://www.figma.com/proto/0cLuQkxTmsUzIcsz2Cb4Wp/Fisamiq---Low-fidelity-UI-Kit-(Community)?type=design&node-id=1017-1494&t=V0JKbyhjj2WWVkZq-1&scaling=scale-down&page-id=1017%3A1394&starting-point-node-id=1017%3A1396&show-proto-sidebar=1&fbclid=IwAR1-dQv5PLQHPrPCcsP9yFbgGihlR4t4MdKifI65wZ6Mw8S1WtYsAkC9asc)
+
+3. **Development:** 
+   - **Coding:** Implementing the design and developing the features iteratively in short cycles known as sprints.
+     - **Source Code:** Programming instructions defining behavior and functionality of the system, developed to build the information kiosk system.
+     - **GitFlow:** A branching model for version control in software development, designed to streamline collaboration, release management, and feature development. GitFlow defines a strict branching model with designated branches for features, releases, and hotfixes, facilitating parallel development and seamless integration of changes.
+
+4. **Testing:** 
+   - **Unit Testing:** Conducting automated and manual tests to verify the functionality of individual components or units of code.
+     - **System Under Test (SUT):** Software or system being tested in the context of software testing, encompassing the entire application undergoing testing.
+     - **Test Cases:** Designed to validate behavior of specific components or functionalities of the system, ensuring they meet specified requirements.
+   - **Acceptance Testing:** Demonstrating completed features to stakeholders and obtaining their feedback for validation and acceptance.
+     - **User Acceptance Testing (UAT):** Testing system with end-users to ensure it meets their needs and expectations.
+     - **Feedback Collection:** Gathering feedback from stakeholders to evaluate usability, effectiveness, and satisfaction with the system.
+
+5. **Deployment:** 
+   - **Continuous Integration Continuous Development (CI/CD) Implementation:** 
+     - CI/CD automates the process of integrating code changes and deploying applications, streamlining the software delivery pipeline.
+     - [To learn more about CI/CD](https://resources.github.com/ci-cd/#:~:text=CI%2FCD%20explained,continuous%20delivery%20or%20continuous%20deployment.)
+     - ![CI/CD Model](/public/documents/diagrams/CICD.svg)
+     - [Source](https://www.synopsys.com/glossary/what-is-cicd.html#:~:text=Definition,are%20made%20frequently%20and%20reliably)
+  
+
+6. **Review:** 
+   - **Operate:** Monitoring and managing the deployed software in production environments to ensure optimal performance and reliability.
+   - **Monitor:** Continuous monitoring and feedback mechanisms in place to track performance, usage, and user feedback of deployed software, informing future iterations and improvements.
 
 ---
 
 #### Continuous Integration Continuous Development (CI/CD) Implementation
-
-![CI/CD Model](/public/documents/diagrams/CICD.svg)
-[Source](https://www.synopsys.com/glossary/what-is-cicd.html#:~:text=Definition,are%20made%20frequently%20and%20reliably)
 
 Continuous Integration Continuous Development (CI/CD) is a software development approach that automates the process of integrating code changes and deploying applications. It involves the continuous integration of code changes into a shared repository, followed by automated testing and deployment to production environments. CI/CD aims to streamline the software delivery pipeline, allowing development teams to deliver code updates more frequently, reliably, and efficiently. By automating repetitive tasks such as code integration, testing, and deployment, CI/CD reduces the likelihood of errors and accelerates the time-to-market for software products.
 
@@ -403,30 +441,6 @@ The requirements analysis phase is pivotal in defining the scope and objectives 
 | Data Privacy Regulations    | Ensure compliance with data privacy regulations to protect the confidentiality and security of user data.         |
 | Accessibility Guidelines    | Conform to accessibility guidelines to ensure equal access and usability for all users, including those with disabilities. |
 
-#### Sitemap 🗺️
-
-https://octopus.do/sitemap/resource/generator#:~:text=A%20Visual%20Sitemap%20is%20a,starting%20point%20in%20website%20development
-
-The sitemap provides a visual representation of the hierarchical structure and navigation flow of the website. It outlines the arrangement of pages or sections and their relationships, facilitating an understanding of the overall architecture and user journey.
-
-![Sitemap](/public/documents/diagrams/Sitemap.png)[Source](https://octopus.do/fhe4eli9mi9)
-
-The thorough analysis of requirements ensures alignment with project objectives and stakeholder expectations, ultimately leading to the successful implementation of both projects.
-
----
-
-#### WireFrame 🗺️
-
-[Live Preview](https://www.figma.com/file/0cLuQkxTmsUzIcsz2Cb4Wp/Fisamiq---Low-fidelity-UI-Kit-(Community)?type=design&node-id=1017-1394&mode=design&t=l2lOLjikNEUT4Zem-0)
-
-![NC Bacoor Kiosk Wireframe](/public/documents/UI/wireframe/Fisamiq%20-%20Low-fidelity%20UI%20Kit%20(NC%20BACOOR%20KIOSK).png)
-
-#### What is WireFrame?  🗺️
-
-https://www.figma.com/resource-library/what-is-wireframing/
-
-A wireframe is a visual representation of a website or application's layout, illustrating the skeletal framework of its various components without detailing design elements like colors or typography. It serves as a blueprint for the user interface, outlining the arrangement of content, navigation, and interactive elements. Wireframes focus on functionality and structure, allowing designers and stakeholders to evaluate the user experience and usability of a digital product before investing in detailed design and development. They facilitate early-stage conceptualization, iteration, and communication among project collaborators, guiding the design process towards creating intuitive and efficient user interfaces.
-
 ---
 
 #### Prototype
@@ -513,7 +527,12 @@ A prototype in UX design is a preliminary version of a product or interface, typ
 
 ---
 
-**Program Flowchart of Existing and Proposed System** 🔄
+#### Implementation
+
+
+---
+
+#### **Program Flowchart of Existing and Proposed System** 🔄
 
 In developing the program flowchart, Glor's study informs the identification of critical decision points and process dependencies inherent in innovation projects within government settings. By mapping out the flow of activities and interactions involved in implementing the Information Kiosk, this flowchart integrates Glor's insights into the practical realities of navigating bureaucratic structures and mobilizing support for innovation initiatives. Additionally, it highlights the iterative nature of the innovation process, emphasizing the need for continuous evaluation and adaptation based on stakeholder feedback and evolving organizational needs.
 
