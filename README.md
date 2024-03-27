@@ -40,17 +40,6 @@ The primary beneficiary of this Information Kiosk is the Bacoor City Livelihood 
       - [Agile Vs Traditional SDLC Models](#agile-vs-traditional-sdlc-models)
       - [Agile Model - Pros and Cons](#agile-model---pros-and-cons)
       - [Agile Model Lifecycle Phases:](#agile-model-lifecycle-phases)
-      - [Continuous Integration Continuous Development (CI/CD) Implementation](#continuous-integration-continuous-development-cicd-implementation)
-      - [What is CI/CD? 🔄](#what-is-cicd-)
-    - [Gitflow Implementation](#gitflow-implementation)
-      - [What is GitFlow 🌱](#what-is-gitflow-)
-    - [Requirements Analysis 📋](#requirements-analysis-)
-      - [1. Requirements Analysis for Business Name Registration Website:](#1-requirements-analysis-for-business-name-registration-website)
-      - [2. Requirements Analysis for Information Kiosk Project:](#2-requirements-analysis-for-information-kiosk-project)
-      - [Prototype](#prototype)
-      - [What is Prototype? 🚀](#what-is-prototype-)
-        - [index.html](#indexhtml)
-        - [FAQs](#faqs)
         - [Registration.html](#registrationhtml)
         - [BNRS Registration](#bnrs-registration)
         - [Renewal.html](#renewalhtml)
@@ -67,6 +56,14 @@ The primary beneficiary of this Information Kiosk is the Bacoor City Livelihood 
         - [ESIGAW Site](#esigaw-site)
         - [Certified-True-Copy.html](#certified-true-copyhtml)
         - [Feedback Modal](#feedback-modal)
+      - [What is CI/CD? 🔄](#what-is-cicd-)
+    - [Gitflow Implementation](#gitflow-implementation)
+      - [What is GitFlow 🌱](#what-is-gitflow-)
+    - [Requirements Analysis 📋](#requirements-analysis-)
+      - [1. Requirements Analysis for Business Name Registration Website:](#1-requirements-analysis-for-business-name-registration-website)
+      - [2. Requirements Analysis for Information Kiosk Project:](#2-requirements-analysis-for-information-kiosk-project)
+      - [Prototype](#prototype)
+      - [What is Prototype? 🚀](#what-is-prototype-)
       - [Implementation](#implementation)
       - [**Program Flowchart of Existing and Proposed System** 🔄](#program-flowchart-of-existing-and-proposed-system-)
       - [Sequence Diagram of Existing and Proposed System 🔄](#sequence-diagram-of-existing-and-proposed-system-)
@@ -292,6 +289,77 @@ Agile is an iterative approach to software development that emphasizes flexibili
        - **Wireframe:** Visual representation of the layout, illustrating the skeletal framework of components without detailing design elements.
        - [To learn more about Wire Frame](https://www.figma.com/resource-library/what-is-wireframing/)
        - [Live Preview of WireFrame](https://www.figma.com/file/0cLuQkxTmsUzIcsz2Cb4Wp/Fisamiq---Low-fidelity-UI-Kit-(Community)?type=design&node-id=1017-1394&mode=design&t=l2lOLjikNEUT4Zem-0)
+       - **index.html**
+
+       - ![index.html](/public/documents/UI/wireframe/index-html.png)
+
+       - **FAQs**
+
+- ![BNRS FAQs](/public/documents/UI/wireframe/bnrs-faq.png)
+
+##### Registration.html
+
+![Registration.html](/public/documents/UI/wireframe/registration-html.png)
+
+##### BNRS Registration
+
+![BNRS Registration](/public/documents/UI/wireframe/bnrs-registration.png)
+
+##### Renewal.html
+
+![Renewal.html](/public/documents/UI/wireframe/renewal-html.png)
+
+##### BNRS Renewal
+
+![BNRS Renewal](/public/documents/UI/wireframe/bnrs-renewal.png)
+
+##### Contact Us Modal
+
+![Contact Us Modal](/public/documents/UI/wireframe/contact-us-modal.png)
+
+##### Citizen Charter Modal
+
+![Citizen Charter Modal](/public/documents/UI/wireframe/citizen-charter-modal.png)
+
+##### OtherServices.html
+
+![OtherServices.html](/public/documents/UI/wireframe/otherservices-html.png)
+
+##### Cancellation.html
+
+![Cancellation.html](/public/documents/UI/wireframe/cancellation-html.png)
+
+##### Certification.html
+
+![Certification.html](/public/documents/UI/wireframe/certification-html.png)
+
+##### BNRS Certification
+
+![BNRS Certification](/public/documents/UI/wireframe/bnrs-certification.png)
+
+##### Upgrade.html
+
+![Upgrade.html](/public/documents/UI/wireframe/upgrade-html.png)
+
+##### BMBE index
+
+![BMBE index](/public/documents/UI/wireframe/bmbe-index.png)
+
+##### Reconsideration.html
+
+![Reconsideration.html](/public/documents/UI/wireframe/reconsideration-html.png)
+
+##### ESIGAW Site
+
+![ESIGAW Site](/public/documents/UI/wireframe/e-sigaw-site.png)
+
+##### Certified-True-Copy.html
+
+![Certified-True-Copy.html](/public/documents/UI/wireframe/certified-true-copy-html.png)
+
+##### Feedback Modal
+
+![Feedback Modal](/public/documents/UI/wireframe/feedback-modal.png)
      
      
        - ![NC Bacoor Kiosk Wireframe](/public/documents/UI/wireframe/Fisamiq%20-%20Low-fidelity%20UI%20Kit%20(NC%20BACOOR%20KIOSK).png)
@@ -305,13 +373,35 @@ Agile is an iterative approach to software development that emphasizes flexibili
      - **Source Code:** Programming instructions defining behavior and functionality of the system, developed to build the information kiosk system.
      - **GitFlow:** A branching model for version control in software development, designed to streamline collaboration, release management, and feature development. GitFlow defines a strict branching model with designated branches for features, releases, and hotfixes, facilitating parallel development and seamless integration of changes.
 
-4. **Testing:** 
-   - **Unit Testing:** Conducting automated and manual tests to verify the functionality of individual components or units of code.
-     - **System Under Test (SUT):** Software or system being tested in the context of software testing, encompassing the entire application undergoing testing.
-     - **Test Cases:** Designed to validate behavior of specific components or functionalities of the system, ensuring they meet specified requirements.
-   - **Acceptance Testing:** Demonstrating completed features to stakeholders and obtaining their feedback for validation and acceptance.
-     - **User Acceptance Testing (UAT):** Testing system with end-users to ensure it meets their needs and expectations.
-     - **Feedback Collection:** Gathering feedback from stakeholders to evaluate usability, effectiveness, and satisfaction with the system.
+4. **Testing**
+
+- **Functional Testing**
+
+  - **Unit Testing:** 
+    - Conducting automated and manual tests to verify the functionality of individual components or units of code.
+    - [Learn more about Unit Testing](https://www.guru99.com/unit-testing-guide.html)
+    - **Test Cases:** Designed to validate the behavior of specific components or functionalities of the system, ensuring they meet specified requirements.
+    - [To learn more about Test Cases](https://katalon.com/resources-center/blog/test-case-template-examples)
+    - ![](/public/documents/test/unit%20testing%201.png)
+    - ![](/public/documents/test/unit%20testing%202.png)
+    - ![](/public/documents/test/unit%20testing%203.png)
+    - [Live Preview](https://docs.google.com/spreadsheets/d/1aBWsPw9xv2uurVVewo7WG8PX4yilL5Bs/edit?usp=sharing&ouid=111536356754165807502&rtpof=true&sd=true)
+
+-  **Non-Functional Testing**
+
+   - **Performance Testing:**
+      - Evaluating the system's responsiveness, speed, scalability, and stability under various workload scenarios.
+      - [To learn more about Performance Testing](https://www.guru99.com/performance-testing.html)
+      - **Google Lighthouse:** A tool for auditing and improving the quality of web pages, providing insights into performance, accessibility, best practices, and SEO.
+      - [To learn more about Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)
+      - ![](/public/documents/test/lighthouse/index.png)
+      - ![](/public/documents/test/lighthouse/registration.png)
+      - ![](/public/documents/test/lighthouse/renewal.png)
+      - ![](/public/documents/test/lighthouse/otherservices.png)
+      - ![](/public/documents/test/lighthouse/cancellation.png)
+      - ![](/public/documents/test/lighthouse/certification.png)
+      - ![](/public/documents/test/lighthouse/upgrade.png)
+      - ![](/public/documents/test/lighthouse/certified-true-copy.png)
 
 5. **Deployment:** 
    - **Continuous Integration Continuous Development (CI/CD) Implementation:** 
@@ -326,10 +416,6 @@ Agile is an iterative approach to software development that emphasizes flexibili
    - **Monitor:** Continuous monitoring and feedback mechanisms in place to track performance, usage, and user feedback of deployed software, informing future iterations and improvements.
 
 ---
-
-#### Continuous Integration Continuous Development (CI/CD) Implementation
-
-Continuous Integration Continuous Development (CI/CD) is a software development approach that automates the process of integrating code changes and deploying applications. It involves the continuous integration of code changes into a shared repository, followed by automated testing and deployment to production environments. CI/CD aims to streamline the software delivery pipeline, allowing development teams to deliver code updates more frequently, reliably, and efficiently. By automating repetitive tasks such as code integration, testing, and deployment, CI/CD reduces the likelihood of errors and accelerates the time-to-market for software products.
 
 #### What is CI/CD? 🔄
 
@@ -453,77 +539,7 @@ https://roadmap.sh/ux-design
 
 A prototype in UX design is a preliminary version of a product or interface, typically created to test and validate design concepts before final implementation. It serves as a tangible representation of the user experience, allowing designers and stakeholders to evaluate functionality, usability, and visual aesthetics. Prototyping tools like Figma enable designers to build interactive mockups with clickable elements, transitions, and animations, providing a realistic simulation of the final product. By gathering feedback and iterating on prototypes, designers can refine their designs and ensure that the eventual product meets user needs and expectations.
 
-##### index.html
 
-![index.html](/public/documents/UI/wireframe/index-html.png)
-
-##### FAQs
-
-![BNRS FAQs](/public/documents/UI/wireframe/bnrs-faq.png)
-
-##### Registration.html
-
-![Registration.html](/public/documents/UI/wireframe/registration-html.png)
-
-##### BNRS Registration
-
-![BNRS Registration](/public/documents/UI/wireframe/bnrs-registration.png)
-
-##### Renewal.html
-
-![Renewal.html](/public/documents/UI/wireframe/renewal-html.png)
-
-##### BNRS Renewal
-
-![BNRS Renewal](/public/documents/UI/wireframe/bnrs-renewal.png)
-
-##### Contact Us Modal
-
-![Contact Us Modal](/public/documents/UI/wireframe/contact-us-modal.png)
-
-##### Citizen Charter Modal
-
-![Citizen Charter Modal](/public/documents/UI/wireframe/citizen-charter-modal.png)
-
-##### OtherServices.html
-
-![OtherServices.html](/public/documents/UI/wireframe/otherservices-html.png)
-
-##### Cancellation.html
-
-![Cancellation.html](/public/documents/UI/wireframe/cancellation-html.png)
-
-##### Certification.html
-
-![Certification.html](/public/documents/UI/wireframe/certification-html.png)
-
-##### BNRS Certification
-
-![BNRS Certification](/public/documents/UI/wireframe/bnrs-certification.png)
-
-##### Upgrade.html
-
-![Upgrade.html](/public/documents/UI/wireframe/upgrade-html.png)
-
-##### BMBE index
-
-![BMBE index](/public/documents/UI/wireframe/bmbe-index.png)
-
-##### Reconsideration.html
-
-![Reconsideration.html](/public/documents/UI/wireframe/reconsideration-html.png)
-
-##### ESIGAW Site
-
-![ESIGAW Site](/public/documents/UI/wireframe/e-sigaw-site.png)
-
-##### Certified-True-Copy.html
-
-![Certified-True-Copy.html](/public/documents/UI/wireframe/certified-true-copy-html.png)
-
-##### Feedback Modal
-
-![Feedback Modal](/public/documents/UI/wireframe/feedback-modal.png)
 
 ---
 
@@ -556,10 +572,6 @@ The sequence diagram for the proposed system outlines the envisaged sequence of 
 
 ---
 
-
-
----
-
 ### Chapter 5: Summary, Conclusions, and Recommendations 📝
 
 In the concluding chapter, Glor's study serves as a touchstone for reflecting on the broader implications of the Information Kiosk project and offering recommendations for future research and practice. By synthesizing the key findings from Glor's research with the project's outcomes and lessons learned, this section underscores the significance of addressing systemic barriers to innovation in government and advocating for a culture of experimentation and learning. Furthermore, it provides actionable recommendations for sustaining the momentum of innovation beyond the initial implementation phase, drawing on Glor's insights into the importance of leadership support, capacity building, and stakeholder engagement.
@@ -573,6 +585,8 @@ In the concluding chapter, Glor's study serves as a touchstone for reflecting on
 - Gitflow with GitHub. (n.d.). Medium. Retrieved March 3, 2024, from https://medium.com/android-news/gitflow-with-github-c675aa4f606a
 - Octopus. (n.d.). What is a Visual Sitemap? Retrieved March 3, 2024, from [https://octopus.do/sitemap/resource/generator#:~:text=A%20Visual%20Sitemap%20is%20a,starting%20point%20in%20website%20development.](https://octopus.do/sitemap/resource/generator#:~:text=A%20Visual%20Sitemap%20is%20a,starting%20point%20in%20website%20development.)
 - Figma. (n.d.). What is wireframing? Retrieved March 3, 2024, from [https://www.figma.com/resource-library/what-is-wireframing/](https://www.figma.com/resource-library/what-is-wireframing/)
+- GitHub. (n.d.). GitHub CI/CD Resources. Retrieved from [https://resources.github.com/ci-cd/#:~:text=CI%2FCD%20explained,continuous%20delivery%20or%20continuous%20deployment](https://resources.github.com/ci-cd/#:~:text=CI%2FCD%20explained,continuous%20delivery%20or%20continuous%20deployment)
+- Roadmap.sh. (n.d.). UX Design Roadmap. Retrieved from [https://roadmap.sh/ux-design](https://roadmap.sh/ux-design)
 
 
 ## Appendices 📑
